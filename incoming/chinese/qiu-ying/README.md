@@ -1,0 +1,24 @@
+# Upload Package: 仇英 (Qiu Ying)
+
+- **Person:** 仇英 (Qiu Ying), 字实父, 号十洲
+- **Person ID:** P_CHN_MING_QIU_YING
+- **Collected by:** MorphMind AI
+- **Model / Tool:** AI agent + Wikipedia API
+- **Collection date:** 2026-05-11
+- **Primary language:** zh-Hans
+- **Review status:** ai_collected_unreviewed
+- **Known limitations:**
+  - 生卒年仅大致年份（c. 1494 - c. 1552），精确日期未确定
+  - 仇英出身寒微，正史无传，生平细节多有缺失
+  - 大量传世作品存在真伪争议，代笔/仿作/后世摹本混杂
+  - 部分馆藏信息、作品编号、ISBN/DOI/页码标记为 needs_verification
+- **Potential source problems:**
+  - Wikipedia 仅用作线索，不作为 confirmed claim 的唯一来源
+  - 明四家为后世美术史概念，已标记为 reception_label
+  - 仇英与文徵明/唐寅/沈周的关系需谨慎处理，不推测为密友
+  - 大量仇英名下作品需区分真迹、传作、仿作
+- **Files included:** README.md, person_profile.md, person_record.json, claims.jsonl, sources.jsonl, relationships.jsonl, events.jsonl, works.jsonl, visual_media.jsonl, legendary_notes.jsonl, open_questions.md
+- **Entity disambiguation:**
+  - 仇英 (c.1494-c.1552) 为明代职业画家
+  - 不可与唐代仇士良、明代仇鸾混淆
+  - 不可与其他同名仇姓者混淆

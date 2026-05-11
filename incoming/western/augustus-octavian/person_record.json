@@ -1,0 +1,33 @@
+{
+  "person_id": "P_WEST_ROMAN_AUGUSTUS",
+  "canonical_key": "augustus_octavian",
+  "primary_display_name_en": "Augustus",
+  "primary_display_name_zh": "奥古斯都",
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "en",
+  "period": "Late Roman Republic / Early Roman Empire",
+  "birth": {
+    "year_display": "63 BCE",
+    "era": "BCE",
+    "year_number": 63,
+    "astronomical_year": -62,
+    "precision": "day",
+    "original_date_text": "23 September 63 BCE",
+    "conversion_note": "Date from Suetonius; September 23 (IX Kal. Oct.) well-attested"
+  },
+  "death": {
+    "year_display": "14 CE",
+    "era": "CE",
+    "year_number": 14,
+    "astronomical_year": 14,
+    "precision": "day",
+    "original_date_text": "19 August 14 CE",
+    "conversion_note": "Date well-attested in ancient sources"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "Augustus (63 BCE - 14 CE), born Gaius Octavius, adopted by Julius Caesar, was the founder of the Roman Principate and the first Roman emperor, ruling from 27 BCE until his death.",
+  "short_description_zh": "奥古斯都（前63-14年），原名盖乌斯·屋大维，被凯撒收为养子，为罗马元首制创立者和第一位罗马皇帝，自公元前27年统治至去世。"
+}

@@ -1,0 +1,25 @@
+# Upload Package: Augustus / Octavian
+
+- **Person:** Augustus (born Gaius Octavius; also known as Octavian, Imperator Caesar Augustus)
+- **Person ID:** P_WEST_ROMAN_AUGUSTUS
+- **Collected by:** MorphMind AI
+- **Model / Tool:** AI agent + Wikipedia API
+- **Collection date:** 2026-05-11
+- **Primary language:** en
+- **Review status:** ai_collected_unreviewed
+- **Known limitations:**
+  - Ancient sources (Suetonius, Cassius Dio, Appian, Velleius Paterculus) not directly consulted
+  - Exact passages/chapters from primary sources marked as needs_verification
+  - Archaeological evidence (coins, inscriptions, Res Gestae text) cited in secondary form
+  - Honorific titles and their legal/constitutional nuance simplified
+- **Potential source problems:**
+  - Wikipedia used only as clue, not as sole source for confirmed claims
+  - Augustan propaganda (Res Gestae, contemporary literature) shapes many ancient accounts
+  - Modern "first emperor" terminology is a simplification of complex constitutional reality
+- **Files included:** README.md, person_profile.md, person_record.json, claims.jsonl, sources.jsonl, relationships.jsonl, events.jsonl, works.jsonl, visual_media.jsonl, legendary_notes.jsonl, open_questions.md
+- **Entity disambiguation:**
+  - Born Gaius Octavius (63 BCE) — NOT his father Gaius Octavius (the elder)
+  - Became Gaius Julius Caesar (Octavianus) after adoption in 44 BCE
+  - Became Imperator Caesar Augustus in 27 BCE
+  - NOT to be confused with later emperors who used "Augustus" as a title
+  - NOT to be confused with Augustus II/III of Poland or other rulers using the name

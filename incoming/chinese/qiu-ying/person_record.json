@@ -1,0 +1,29 @@
+{
+  "person_id": "P_CHN_MING_QIU_YING",
+  "canonical_key": "qiu_ying",
+  "primary_display_name_zh": "仇英",
+  "primary_display_name_en": "Qiu Ying",
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "c. 1494",
+    "era": "CE",
+    "precision": "approximate",
+    "original_date_text": "",
+    "conversion_note": "仇英确切生年无可靠记载，约1494年为学界多数意见"
+  },
+  "death": {
+    "year_display": "c. 1552",
+    "era": "CE",
+    "precision": "approximate",
+    "original_date_text": "",
+    "conversion_note": "仇英确切卒年无可靠记载，约1552年为学界多数意见"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "仇英（约1494-约1552），字实父，号十洲，太仓人，明代职业画家，以工笔重彩人物山水名世，与沈周、文徵明、唐寅并称明四家。出身寒微，由漆工转为画师，受周臣指授。",
+  "short_description_en": "Qiu Ying (c. 1494 - c. 1552), courtesy name Shifu, pseudonym Shizhou, was a Ming dynasty professional painter renowned for gongbi figure-and-landscape painting, counted among the Four Masters of the Ming."
+}
