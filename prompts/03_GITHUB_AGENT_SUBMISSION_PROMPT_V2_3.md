@@ -1,4 +1,4 @@
-# Prompt: GitHub Agent Submission v2.4 — Non-Interactive MVP Mode
+# Prompt: GitHub Agent Submission v2.5 — Non-Interactive MVP Mode
 
 Use this prompt when an AI coding agent is asked to collect a person package and submit it to GitHub.
 
@@ -22,9 +22,9 @@ If uncertain, mark the item as `needs_verification`, `probable`, `disputed`, `un
 
 1. Pull the latest `main`.
 2. Read:
-   - `project-rules/MVP_COLLECTION_RULES_V2_3.md`
-   - for Chinese figures: `prompts/01_COLLECT_CHINESE_PERSON_PROMPT_V2_4_NON_INTERACTIVE.md`
-   - for Western figures: `prompts/02_COLLECT_WESTERN_PERSON_PROMPT_V2_4_NON_INTERACTIVE.md`
+   - `project-rules/MVP_COLLECTION_RULES_V2_5.md`
+   - for Chinese figures: `prompts/01_COLLECT_CHINESE_PERSON_PROMPT_V2_5.md`
+   - for Western figures: `prompts/02_COLLECT_WESTERN_PERSON_PROMPT_V2_5.md`
 3. Create a new branch:
    - `collect/[person-slug]-v1`
 4. Create a new person folder:
@@ -38,6 +38,15 @@ If uncertain, mark the item as `needs_verification`, `probable`, `disputed`, `un
 8. Commit and push.
 9. Open a Pull Request if possible. If PR creation is not available, commit to a collection branch and report the branch name.
 10. Do not edit `reviewed/` or master data areas.
+
+## v2.5 extra quality requirements
+
+- One claim must contain one fact only.
+- Summary wording must not be stronger than claim status.
+- Reception labels must be written as reception, not direct fact.
+- Do not use `friend`, `teacher`, `disciple`, `ally`, `influence`, or `founder` language unless direct evidence supports it.
+- Prefer `probable_association`, `same_cultural_circle`, `documented_association`, `later_grouping_only`, or `reception_label` when evidence is indirect.
+- Keep visual media in staging unless object ID, source holder, attribution, date, and rights/license are verified.
 
 ## Hard restrictions
 
