@@ -1,0 +1,40 @@
+# Open Questions — Pompey (Gnaeus Pompeius Magnus)
+
+## High Priority
+
+1. **Exact page/chapter references for classical sources**: Plutarch, Appian, and Cassius Dio are cited but without specific passage references (e.g., "Plutarch, Life of Pompey ch. 46"). All three marked `needs_verification` for citation details. Needs standard edition references (e.g., Loeb Classical Library).
+
+2. **Caesar's Civil War edition**: SRC004 (Caesar, *Commentarii de Bello Civili*) cited as primary text without edition reference. Needs Loeb or Oxford Classical Text specification.
+
+3. **Crawford coin catalogue numbers**: SRC012 (Crawford, *Roman Republican Coinage*, 1974) verified but specific RRC catalogue numbers for Pompey's coins (the 71 BCE aureus and 56 BCE denarius) are not provided.
+
+## Medium Priority
+
+4. **Pompey portrait identification — Ny Carlsberg Glyptotek bust**: Multiple competing identifications exist for the "Pompey" portrait type. Needs museum inventory number and scholarly consensus reference.
+
+5. **Villa Arconati statue provenance**: Described as "reputed" Pompey statue. Needs art-historical verification of the identification and provenance from 1627 Rome transfer.
+
+6. **Leach (1978) page references**: Standard modern biography (SRC005) cited extensively but without specific page/chapter references.
+
+7. **Cambridge Ancient History page references**: Authoritative reference (SRC006) needs specific volume/chapter/page citations.
+
+8. **Ptolemy XIII's advisors**: Pothinus, Theodotus, Achillas are consistently named in classical sources (Plutarch) for the decision to kill Pompey, but not verified in the current source set. Needs cross-reference with Plutarch, *Life of Pompey*.
+
+## Low Priority
+
+9. **Exact date of death — 28 vs 29 September**: English Wikipedia gives 28 September 48 BCE; some Chinese sources give 29 September. The 28th is more widely cited and makes him die one day before his 58th birthday, which may have literary appeal. Needs verification against primary sources.
+
+10. **Sulla's ironic use of "Magnus"**: Mommsen's claim that Sulla first used the cognomen with bitter irony is cited in Wikipedia but unverified in the sources consulted. Needs checking against Mommsen's *Römische Geschichte* or modern scholarship.
+
+11. **Shakespeare references to Pompey**: Listed in legendary_notes as reception. Mentioned in *Julius Caesar* and *Antony and Cleopatra* but specific act/scene references not provided.
+
+12. **Modern historical fiction list**: Colleen McCullough, Steven Saylor, Robert Harris listed as reception. These are well-known but specific novel titles and publication dates not verified.
+
+## Recommended Review Actions
+
+1. Provide Loeb Classical Library references for all classical source citations
+2. Add RRC catalogue numbers for Pompey's coinage (Crawford 1974)
+3. Verify Pompey bust identification with museum catalogues (Copenhagen Ny Carlsberg Glyptotek, Venice Museo Archeologico)
+4. Cross-reference Ptolemy XIII's advisors with Plutarch (*Life of Pompey*)
+5. Add specific page references for Leach (1978) and Cambridge Ancient History
+6. Verify Mommsen's claim about Sulla's ironic use of "Magnus"
