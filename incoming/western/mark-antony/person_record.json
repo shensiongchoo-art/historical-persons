@@ -1,0 +1,47 @@
+{
+  "person_id": "P_WEST_ROMAN_002_MARK_ANTONY",
+  "canonical_key": "mark-antony",
+  "primary_display_name_en": "Mark Antony",
+  "primary_display_name_la": "Marcus Antonius",
+  "era": "Roman Republic",
+  "culture_label": "Western",
+  "birth": {
+    "year_display": "83 BCE",
+    "year_number": -83,
+    "astronomical_year": -82,
+    "era": "BCE",
+    "precision": "year",
+    "date_display": "14 January 83 BCE",
+    "note": "Birth year disputed; some sources give 86 BCE. Plutarch records age at death as 53 or 56 (Plut. Ant. 86.5). 83 BCE derived from Cicero's reference to his quaestorship timing."
+  },
+  "death": {
+    "year_display": "30 BCE",
+    "year_number": -30,
+    "astronomical_year": -29,
+    "era": "BCE",
+    "precision": "day",
+    "date_display": "1 August 30 BCE",
+    "place": "Alexandria, Ptolemaic Egypt",
+    "cause": "Suicide by sword after false report of Cleopatra's death"
+  },
+  "primary_occupation": "Roman politician and general",
+  "notable_roles": [
+    "Tribune of the Plebs (49 BCE)",
+    "Magister Equitum / Master of Horse (48-47 BCE)",
+    "Consul (44 BCE, 34 BCE)",
+    "Triumvir Rei Publicae Constituendae (43-33 BCE)",
+    "Governor of the Eastern Provinces (42-30 BCE)"
+  ],
+  "alternate_names": [
+    {"name": "Marcus Antonius", "context": "Latin form"},
+    {"name": "Marc Antony", "context": "Anglicized variant"}
+  ],
+  "dynasty_or_faction": "Second Triumvirate (Antonian faction)",
+  "family": {
+    "father": "Marcus Antonius Creticus",
+    "mother": "Julia Antonia",
+    "spouses": ["Fadia (uncertain)", "Antonia Hybrida Minor", "Fulvia", "Octavia Minor", "Cleopatra VII"],
+    "children": ["Antonia", "Marcus Antonius Antyllus", "Iullus Antonius", "Antonia Major", "Antonia Minor", "Alexander Helios", "Cleopatra Selene II", "Ptolemy Philadelphus"]
+  },
+  "last_modified": "2026-05-12"
+}
