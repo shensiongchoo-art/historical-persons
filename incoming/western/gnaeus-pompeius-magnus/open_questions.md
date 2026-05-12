@@ -48,3 +48,19 @@
 4. Cross-reference Ptolemy XIII's advisors with Plutarch (*Life of Pompey*)
 5. Add specific page references for Leach (1978) and Cambridge Ancient History
 6. Verify Mommsen's claim about Sulla's ironic use of "Magnus"
+
+## Source Verification Sprint Notes (v2, 2026-05-12)
+
+### Classical sources — Loeb refs added (SRC001–SRC004, SRC013–SRC014)
+- SRC001 (Plutarch, Life of Pompey): LCL 87, Perrin 1917. Promoted A_candidate → **A**. Key chapters: 1–13 (birth/Sulla/cognomen), 17–22 (Sertorian War), 30–33 (lex Manilia), 46–48 (Triumvirate), 68–73 (Pharsalus), 77–80 (death in Egypt).
+- SRC002 (Appian, Civil Wars): LCL 543–544, McGing 2020 (preferred over older White 1913 LCL 3–5). Promoted **A**. Books 2–5.
+- SRC003 (Cassius Dio): LCL 53 (Books 36–40, Cary 1914) + LCL 66 (Books 41–45, Cary 1916). Promoted **A**.
+- SRC004 (Caesar, Bello Civili): LCL 39, Damon 2016 (preferred over Peskett 1914). Promoted **A**. Books 1–3.
+- SRC013 (Plutarch, Life of Crassus): LCL 65, Perrin 1916. Promoted **A**. Key chapters: 11–13 (Spartacus), 14–15 (joint consulship), 36–38 (Luca).
+- SRC014 (Cicero, Pro Lege Manilia): LCL 198, Hodge 1927. Promoted **A**. §27–50 key for Pompey's qualities.
+
+### Still needs_verification
+- SRC005 (Leach 1978): page references not yet added — defer to bibliography sprint.
+- SRC006 (Cambridge Ancient History vol. IX): page references not yet added.
+- SRC007 (Oxford Classical Dictionary): entry pages not yet added.
+- SRC012 (Crawford, Roman Republican Coinage): RRC catalogue numbers for Pompey coins not yet added.

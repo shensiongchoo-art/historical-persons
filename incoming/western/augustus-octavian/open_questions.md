@@ -34,3 +34,26 @@
 - "First Roman emperor" framing: downgraded to reception/medium in CLM_AU_022. Retained.
 - Compound claims (name stages, marriages, titles, settlements, Actium) were split in v2.5 package. Retained.
 - Source passage references (Suetonius Aug. chapter refs, Cassius Dio book/chapter refs): specific chapter numbers present in some citations (Aug. 5, Aug. 7.1, Aug. 79, Aug. 99). Remaining passage refs marked needs_verification — defer to source verification sprint.
+
+## Source Verification Sprint Notes (v2, 2026-05-12)
+
+### Ancient sources — Loeb refs added (SRC_AU_001–SRC_AU_009); all promoted A_candidate → **A**
+- SRC_AU_001 (Suetonius, Divus Augustus): LCL 31, Rolfe 1914 (rev. 1998). Chapters: 5 (birth), 7–8 (adoption/names), 79 (appearance), 99–100 (death).
+- SRC_AU_002 (Cassius Dio, Books 45–56): LCL 66, 82, 83, 175 (Cary 1916–1924). Book 53 key for constitutional settlements.
+- SRC_AU_003 (Appian, Civil Wars 3–5): LCL 543–544, McGing 2020 (preferred). Books 3–4 (Triumvirate/proscriptions/Philippi), Book 5 (Sextus Pompeius).
+- SRC_AU_004 (Res Gestae): No Loeb edition. Standard editions: Cooley 2009 (Cambridge; preferred) and Brunt & Moore 1967 (Oxford).
+- SRC_AU_005 (Tacitus, Annales 1): LCL 249, Jackson 1931. Ann. 1.1–15 (retrospective on Augustus); Ann. 1.5–6 (Livia rumour — hostile tradition).
+- SRC_AU_006 (Plutarch, Life of Antony): LCL 101, Perrin 1920. Key chapters: 16–22 (Triumvirate), 75–77 (Actium).
+- SRC_AU_007 (Nicolaus of Damascus): No Loeb. Standard edition: Toher 2017, Cambridge Classical Texts & Commentaries 53.
+- SRC_AU_008 (Velleius Paterculus): LCL 152, Shipley 1924 (rev. Woodman 2025). Book 2, chs. 59–130.
+- SRC_AU_009 (Cicero, Philippics & Atticus): Philippics: LCL 189 + 507, Bailey 2010. Letters: LCL 7, 8, 200, 201, Bailey 1999.
+
+### Author fields fixed
+- All 18 SRC_AU_ records: author field replaced from "see bibliographic_hint" to named author.
+
+### Still needs_verification
+- SRC_AU_010 (Syme, Roman Revolution): page refs not added.
+- SRC_AU_011 (Goldsworthy 2014): page refs not added.
+- SRC_AU_013–014 (museum records): inventory verification with museum catalogue URLs added; formal citation_detail added.
+- SRC_AU_017 (Wiseman JRA date "2025" in source record): year needs checking against actual publication — may be 2005.
+- SRC_AU_018 (coinage): RIC I² references added; full numismatic citation deferred.
