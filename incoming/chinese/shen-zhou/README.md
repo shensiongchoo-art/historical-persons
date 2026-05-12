@@ -1,0 +1,24 @@
+# Upload Package: 沈周 (Shen Zhou)
+
+- **Person:** 沈周 (Shen Zhou), 字启南, 号石田, 晚号白石翁
+- **Person ID:** P_CHN_MING_SHEN_ZHOU
+- **Collected by:** MorphMind AI
+- **Model / Tool:** AI agent + web search + Wikipedia
+- **Collection date:** 2026-05-11
+- **Primary language:** zh-Hans
+- **Review status:** ai_collected_unreviewed
+- **Known limitations:**
+  - 正史/年谱/墓志/原文出处未逐条核实卷次页码
+  - 部分来源信息（ISBN/DOI/页码）标记为 needs_verification
+  - 书画作品馆藏地、尺寸、题跋等细节尚未逐一核实
+- **Potential source problems:**
+  - Wikipedia 仅用作线索，不作为 confirmed claim 的唯一来源
+  - 搜索结果/学术文章摘要作为线索使用
+  - 明四家、吴门画派为后世美术史术语，已标记为 reception_label
+- **Files included:** README.md, person_profile.md, person_record.json, claims.jsonl, sources.jsonl, relationships.jsonl, events.jsonl, works.jsonl, visual_media.jsonl, legendary_notes.jsonl, open_questions.md
+- **Entity disambiguation:**
+  - 沈周 (1427-1509) 为明代吴门画家
+  - 不可与唐代沈佺期、宋代沈括混淆
+  - 不可与同时代沈度（书法家，台阁体代表）混淆
+  - 不可与后世同名者混淆
+  - Wikipedia 条目出生年误写为1472，正史及多数来源为1427
