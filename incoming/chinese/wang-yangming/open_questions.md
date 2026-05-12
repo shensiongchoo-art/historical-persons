@@ -44,3 +44,24 @@
 3. Verify 传习录 edition and provide chapter references for key doctrines
 4. Confirm Japanese Yangmingism transmission with Japanese academic sources
 5. Attempt museum catalogue verification for calligraphy holdings and portraits
+
+## Source Verification Sprint Notes (v2, 2026-05-12)
+
+### SRC014 placeholder replaced — Julia Ching monograph
+- **Replaced** placeholder SRC014 (was: "日本阳明学 (Ōyōmei-gaku) reception [placeholder]", level `B`, author `needs_verification`) with:
+  - **Ching, Julia. *To Acquire Wisdom: The Way of Wang Yang-ming*. New York: Columbia University Press, 1976. ISBN 0-231-03968-7. xxvi + 373 pp.**
+- Promoted from `B` → `B_high`. Verification status: `verified`.
+- Covers: Wang Yangming's life, philosophical development, core doctrines (liang-chih, unity of knowledge and action), and legacy including transmission to Japan.
+- C025 and C026 (Japanese Yangmingism reception claims) now cite Ching as their primary academic source.
+
+### Remaining source gaps
+- SRC001 (明史·王守仁传): exact juan number still `needs_verification`
+- SRC003 (Cambridge History of China, vol. 7): page references `needs_verification`
+- SRC008–SRC010 (传习录, 大学问, 王文成公全书): `A_candidate` → need edition verification, precise chapter refs
+- Japanese Yangmingism: Ching monograph is strong on Wang Yangming's philosophy but coverage of Japanese reception is in concluding sections only. A dedicated monograph on Ōyōmei-gaku (e.g. Barry Steben articles, Tetsuo Najita chapters) would strengthen C025 and C026 further.
+
+### Recommended next actions
+1. Verify 明史 王守仁传 juan number against 中华书局点校本
+2. Add page references for Cambridge History of China vol. 7
+3. Verify 传习录 edition (e.g. 陈荣捷 Wing-tsit Chan, *Instructions for Practical Living*, Columbia UP 1963)
+4. Add dedicated Japanese Yangmingism source for C025/C026 as supplementary reference
