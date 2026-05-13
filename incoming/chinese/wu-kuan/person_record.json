@@ -1,0 +1,48 @@
+{
+  "person_id": "P_CHN_MING_002_WU_KUAN",
+  "canonical_key": "wu-kuan",
+  "primary_display_name_zh": "吴宽",
+  "primary_display_name_en": "Wu Kuan",
+  "alternate_names_zh": [
+    "原博",
+    "匏庵",
+    "匏翁",
+    "玉亭主",
+    "吴文定"
+  ],
+  "alternate_names_en": [
+    "Yuanbo",
+    "Pao'an",
+    "Paoweng",
+    "Wending"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1435",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "宣德十年（1435年）",
+    "conversion_note": "standard date from 明史 vol. 184",
+    "year_number": 1435,
+    "astronomical_year": 1435
+  },
+  "death": {
+    "year_display": "1504",
+    "era": "CE",
+    "precision": "day",
+    "original_date_text": "弘治十七年七月十日（1504年8月19日）",
+    "conversion_note": "standard date from 明史 vol. 184",
+    "year_number": 1504,
+    "astronomical_year": 1504,
+    "date_display": "19 August 1504"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代成化八年状元，官至礼部尚书。诗文宗苏轼，书法开吴门书派先河。与沈周为挚友，文徵明之师。著有《匏翁家藏集》。",
+  "short_description_en": "Ming dynasty zhuangyuan (top jinshi) of 1472, rose to Minister of Rites. Poet and calligrapher who modeled his style on Su Shi and laid foundations for the Wu School of Calligraphy. Close friend of Shen Zhou, teacher of Wen Zhengming. Author of Collected Works of Paoweng.",
+  "review_note": "Hardening v1: claims normalized to v2.5 schema. CLM_WK_006 split. CLM_WK_012 downgraded. Sources, relationships, events, works added person_id."
+}
