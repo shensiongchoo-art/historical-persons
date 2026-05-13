@@ -1,6 +1,6 @@
 # Mark Antony (Marcus Antonius) — MVP Package
 
-**Person ID:** P_WEST_ROMAN_002_MARK_ANTONY
+**Person ID:** P_WEST_LATE_REPUBLIC_MARCUS_ANTONIUS
 **Dates:** 14 January 83 BCE – 1 August 30 BCE
 **Era:** Roman Republic
 **Culture:** Western
