@@ -1,0 +1,41 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_MARCUS_ANTONIUS",
+  "canonical_key": "mark-antony",
+  "primary_display_name_en": "Mark Antony",
+  "primary_display_name_zh": "马克·安东尼",
+  "alternate_names_en": [
+    "Marcus Antonius",
+    "Marc Antony"
+  ],
+  "alternate_names_zh": [
+    "马库斯·安东尼乌斯"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "la",
+  "period": "Late Roman Republic",
+  "birth": {
+    "year_display": "83 BCE",
+    "era": "BCE",
+    "year_number": 83,
+    "astronomical_year": -82,
+    "precision": "day",
+    "original_date_text": "14 January 83 BCE, Rome",
+    "conversion_note": "Birth year disputed; some sources give 86 BCE. Plutarch records age at death as 53 or 56 (Plut. Ant. 86.5). 83 BCE derived from Cicero's reference to quaestorship timing."
+  },
+  "death": {
+    "year_display": "30 BCE",
+    "era": "BCE",
+    "year_number": 30,
+    "astronomical_year": -29,
+    "precision": "day",
+    "original_date_text": "1 August 30 BCE, Alexandria, Ptolemaic Egypt",
+    "conversion_note": "Suicide by sword after false report of Cleopatra's death."
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "Roman politician and general of the late Republic. Tribune of the Plebs (49 BCE), Master of Horse under Caesar, consul (44 BCE), triumvir (43–33 BCE). Caesar's funeral oration turned Rome against the assassins. Allied with Cleopatra VII; defeated at Actium (31 BCE), died by suicide (30 BCE).",
+  "short_description_zh": "罗马共和国晚期政治家、将军。曾任保民官（前49年）、凯撒的骑兵司令、执政官（前44年）、后三头同盟成员（前43–33年）。凯撒葬礼演说激起罗马民众对刺杀者的愤怒。与克娄巴特拉七世结盟；阿克提姆海战（前31年）战败，自杀身亡（前30年）。",
+  "review_note": "Hardening v1: full package normalized to v2.5 schema. Claims restructured with zh/en text. Relationships aligned to v2.5 types. Events split into zh/en descriptions."
+}

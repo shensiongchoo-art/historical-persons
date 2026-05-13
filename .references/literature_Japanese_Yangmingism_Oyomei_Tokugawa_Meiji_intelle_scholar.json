@@ -1,0 +1,94 @@
+{
+  "query": "Japanese Yangmingism Oyomei Tokugawa Meiji intellectual",
+  "database": "scholar",
+  "papers": [
+    {
+      "title": "Inoue Tetsujir\u014d and Modern Yangming Learning in Japan",
+      "link": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.5117/9789463725286-5&type=chapterpdf",
+      "snippet": "\u2026 research on Ming Dynasty intellectual history, drew attention \u2026 by the feudal system during the Edo period. Tus, for example, \u2026 7 \u201cAs a result of Yangming-ism, there was a tendency to an \u2026",
+      "publication_info": {
+        "summary": "Y Sh\u014d, J McCreery - \u2026 of Confucianism in Modern Japan, 2025 - api.taylorfrancis.com",
+        "authors": [
+          {
+            "name": "Y Sh\u014d"
+          },
+          {
+            "name": "J McCreery"
+          }
+        ]
+      },
+      "inline_links": {
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=1746445878758082712&as_sdt=5,44&sciodt=0,44&hl=en&num=5"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:mAjSDkafPBgJ:scholar.google.com/&scioq=Japanese+Yangmingism+Oyomei+Tokugawa+Meiji+intellectual&hl=en&num=5&as_sdt=0,44&as_ylo=1970&as_yhi=2025",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=1746445878758082712&hl=en&num=5&as_sdt=0,44&as_ylo=1970&as_yhi=2025"
+        }
+      },
+      "pdf_url": null,
+      "citation_count": 1,
+      "_source": "scholar",
+      "_ref_id": "inoue_tetsujir_modern"
+    },
+    {
+      "title": "The Perceptions of Modern Vietnamese Scholars about Japanese Yomeigaku and their Origin.",
+      "link": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=18126243&AN=182198994&h=ybmrdH5k8jPi8FTeHMQorYd67nRyYSyS9MRnCzNk8Nue448I5PGRIUO2Hl1GlMkLirjPNVwsZoT3zBZYHeWF7g%3D%3D&crl=c",
+      "snippet": "\u2026 had no tradition of Yangmingism and the \u2026 Japanese Yomeigaku provided by Vietnamese scholars into the context of contemporary studies about Japanese Yomeigaku and intellectual \u2026",
+      "publication_info": {
+        "summary": "AT NGUYEN - Taiwan Journal of East Asian Studies, 2024 - search.ebscohost.com",
+        "authors": [
+          {
+            "name": "AT NGUYEN"
+          }
+        ]
+      },
+      "inline_links": {
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:p58BtDUhLXIJ:scholar.google.com/&scioq=Japanese+Yangmingism+Oyomei+Tokugawa+Meiji+intellectual&hl=en&num=5&as_sdt=0,44&as_ylo=1970&as_yhi=2025"
+      },
+      "pdf_url": null,
+      "citation_count": 0,
+      "_source": "scholar",
+      "_ref_id": "perceptions_modern_vietnamese"
+    },
+    {
+      "title": "Studying Wang Yangming: History of a Sinological Field",
+      "type": "Pdf",
+      "link": "https://philarchive.org/archive/ISRSWY",
+      "snippet": "\u2026 monograph, because Wang Yangmingism (here defined as \u2026 saw individuals who opposed the Tokugawa Shogunate as \u2026 of Oyomei, whose ideas formed the chief intellectual influence \u2026",
+      "publication_info": {
+        "summary": "GL Israel - 2022 - philarchive.org",
+        "authors": [
+          {
+            "name": "GL Israel"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "philarchive.org",
+          "file_format": "PDF",
+          "link": "https://philarchive.org/archive/ISRSWY"
+        }
+      ],
+      "inline_links": {
+        "cited_by": {
+          "total": 6,
+          "link": "https://scholar.google.com/scholar?cites=2617674797201904109&as_sdt=5,44&sciodt=0,44&hl=en&num=5"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:7VG26FvZUyQJ:scholar.google.com/&scioq=Japanese+Yangmingism+Oyomei+Tokugawa+Meiji+intellectual&hl=en&num=5&as_sdt=0,44&as_ylo=1970&as_yhi=2025",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=2617674797201904109&hl=en&num=5&as_sdt=0,44&as_ylo=1970&as_yhi=2025"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:7VG26FvZUyQJ:scholar.google.com/+Japanese+Yangmingism+Oyomei+Tokugawa+Meiji+intellectual&hl=en&num=5&as_sdt=0,44&as_ylo=1970&as_yhi=2025"
+      },
+      "pdf_url": "https://philarchive.org/archive/ISRSWY",
+      "citation_count": 6,
+      "_source": "scholar",
+      "_ref_id": "studying_wang_yangming"
+    }
+  ]
+}

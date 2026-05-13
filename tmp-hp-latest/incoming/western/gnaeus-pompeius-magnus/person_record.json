@@ -1,0 +1,33 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_GNAEUS_POMPEIUS_MAGNUS",
+  "canonical_key": "gnaeus_pompeius_magnus",
+  "primary_display_name_en": "Pompey (Gnaeus Pompeius Magnus)",
+  "primary_display_name_zh": "庞培（格奈乌斯·庞培·马格努斯）",
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "en",
+  "period": "Late Roman Republic",
+  "birth": {
+    "year_display": "106 BCE",
+    "era": "BCE",
+    "year_number": 106,
+    "astronomical_year": -105,
+    "precision": "day",
+    "original_date_text": "29 September 106 BCE",
+    "conversion_note": ""
+  },
+  "death": {
+    "year_display": "48 BCE",
+    "era": "BCE",
+    "year_number": 48,
+    "astronomical_year": -47,
+    "precision": "day",
+    "original_date_text": "28 September 48 BCE",
+    "conversion_note": "Killed at Pelusium, Egypt on orders of Ptolemy XIII's court. Some sources give 29 September."
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "Roman general and statesman of the late Republic. Born Gnaeus Pompeius, earned the cognomen 'Magnus' (the Great). Three-time triumphator. Defeated pirates (67 BCE), Mithridates VI (66-62 BCE), and fought Sertorius in Hispania. Co-consul with Crassus (70 BCE). Formed the informal political alliance later termed the 'First Triumvirate' with Caesar and Crassus (60 BCE). Sole consul 52 BCE. Defeated by Caesar at Pharsalus (48 BCE) and assassinated in Egypt. Built the Theatre of Pompey, Rome's first permanent stone theater.",
+  "short_description_zh": "罗马共和国晚期将领和政治家。原名格奈乌斯·庞培，获称号Magnus（“伟大的”）。三次凯旋者。剿灭海盗（公元前67年），击败米特里达梯六世（公元前66-62年），在西班牙与塞托里乌斯作战。与克拉苏共任执政官（公元前70年）。与凯撒和克拉苏结成后世所称的“前三头同盟”（公元前60年）。公元前52年任独任执政官。法萨卢斯战役（公元前48年）败于凯撒，在埃及被刺杀。建造庞培剧院——罗马第一座永久性石制剧院。"
+}

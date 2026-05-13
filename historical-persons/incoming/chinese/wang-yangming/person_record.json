@@ -1,0 +1,29 @@
+{
+  "person_id": "P_CHN_MING_WANG_YANGMING",
+  "canonical_key": "wang_yangming",
+  "primary_display_name_zh": "王阳明",
+  "primary_display_name_en": "Wang Yangming",
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1472",
+    "era": "CE",
+    "precision": "day",
+    "original_date_text": "明宪宗成化八年九月三十日",
+    "conversion_note": "公历换算存在10月26日（英文维基）与10月31日（中文来源）差异，需核对明实录或年谱"
+  },
+  "death": {
+    "year_display": "1529",
+    "era": "CE",
+    "precision": "day",
+    "original_date_text": "嘉靖七年十一月二十九日（1529年1月9日）",
+    "conversion_note": "公历1529年1月9日，中英文来源一致。卒于江西南安府青龙铺舟中"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代思想家、军事家、文学家。本名王守仁，字伯安，号阳明子，世称王阳明，谥文成，封新建伯（后进新建侯）。浙江余姚人。弘治十二年进士。官至南京兵部尚书。龙场悟道后发展心学，提出“知行合一”“致良知”等学说。平定宁王之乱，总督两广。后世视为阳明心学的核心奠基人物，从祀孔庙。著有《传习录》《大学问》等。其思想传入日本形成日本阳明学。",
+  "short_description_en": "Ming dynasty philosopher, military commander, and writer. Original name Wang Shouren, courtesy name Bo'an, commonly known as Wang Yangming. Proposed doctrines of 'unity of knowledge and action' and 'extension of innate knowledge.' Suppressed the Prince of Ning rebellion. Later regarded as the central founding figure of the Yangming School of Mind. Canonized in the Confucian Temple (1584). Author of Chuanxilu (Instructions for Practical Living). His thought formed Japanese Ōyōmei-gaku."
+}

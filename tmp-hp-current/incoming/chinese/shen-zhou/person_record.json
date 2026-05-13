@@ -1,0 +1,29 @@
+{
+  "person_id": "P_CHN_MING_SHEN_ZHOU",
+  "canonical_key": "shen_zhou",
+  "primary_display_name_zh": "沈周",
+  "primary_display_name_en": "Shen Zhou",
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1427",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "宣德二年十一月二十一日",
+    "conversion_note": "needs verification against calendar conversion source"
+  },
+  "death": {
+    "year_display": "1509",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "正德四年",
+    "conversion_note": "needs verification against calendar conversion source"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "沈周（1427-1509），字启南，号石田，晚号白石翁，长洲（今苏州）人，明代吴门画派创始人，与文徵明、唐寅、仇英并称明四家。一生未仕，以诗书画名世。",
+  "short_description_en": "Shen Zhou (1427-1509), courtesy name Qinan, pseudonym Shitian, was a founder of the Wu School of Ming dynasty painting, celebrated as one of the Four Masters of the Ming."
+}

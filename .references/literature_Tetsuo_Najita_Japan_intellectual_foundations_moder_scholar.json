@@ -1,0 +1,93 @@
+{
+  "query": "Tetsuo Najita Japan intellectual foundations modern Japanese politics book",
+  "database": "scholar",
+  "papers": [
+    {
+      "title": "Japan: The intellectual foundations of modern Japanese politics",
+      "type": "Book",
+      "link": "https://books.google.com/books?hl=en&lr=&id=yXjI9v4nEwYC&oi=fnd&pg=PP5&dq=Tetsuo+Najita+Japan+intellectual+foundations+modern+Japanese+politics+book&ots=jld2JSCDBX&sig=CHL805MhnOKtiJw3aiuY3QI0jEk",
+      "snippet": "\u2026 book offers an interpretive perspective on Japan as a modern nation. It is not a short history of Japan. \u2026 with which the Japanese have reflected on their own history, their politics, and their \u2026",
+      "publication_info": {
+        "summary": "T Najita - 1980 - books.google.com",
+        "authors": [
+          {
+            "name": "T Najita"
+          }
+        ]
+      },
+      "inline_links": {
+        "cited_by": {
+          "total": 183,
+          "link": "https://scholar.google.com/scholar?cites=4396781445423651400&as_sdt=5,44&sciodt=0,44&hl=en&num=3"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:SFqB8W2BBD0J:scholar.google.com/&scioq=Tetsuo+Najita+Japan+intellectual+foundations+modern+Japanese+politics+book&hl=en&num=3&as_sdt=0,44&as_ylo=1960&as_yhi=2025",
+        "versions": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cluster=4396781445423651400&hl=en&num=3&as_sdt=0,44&as_ylo=1960&as_yhi=2025"
+        }
+      },
+      "pdf_url": null,
+      "citation_count": 183,
+      "_source": "scholar",
+      "_ref_id": "japan_intellectual_foundations"
+    },
+    {
+      "title": "Tokugawa political writings",
+      "type": "Book",
+      "link": "https://books.google.com/books?hl=en&lr=&id=lJPLEHKGxw8C&oi=fnd&pg=PR7&dq=Tetsuo+Najita+Japan+intellectual+foundations+modern+Japanese+politics+book&ots=1JVD8dB-Zb&sig=m1MnvR3gt0PAsn-qh7Ug8QD3sGE",
+      "snippet": "\u2026 1868 that preceded Japan's modern transformation. In this volume Tetsuo Najita introduces the \u2026 figure in laying the conceptual foundations of Japan's modernization. Two of Sorai's texts \u2026",
+      "publication_info": {
+        "summary": "T Najita - 1998 - books.google.com",
+        "authors": [
+          {
+            "name": "T Najita"
+          }
+        ]
+      },
+      "inline_links": {
+        "cited_by": {
+          "total": 56,
+          "link": "https://scholar.google.com/scholar?cites=1780214145894176645&as_sdt=5,44&sciodt=0,44&hl=en&num=3"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:hdclblWXtBgJ:scholar.google.com/&scioq=Tetsuo+Najita+Japan+intellectual+foundations+modern+Japanese+politics+book&hl=en&num=3&as_sdt=0,44&as_ylo=1960&as_yhi=2025",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=1780214145894176645&hl=en&num=3&as_sdt=0,44&as_ylo=1960&as_yhi=2025"
+        }
+      },
+      "pdf_url": null,
+      "citation_count": 56,
+      "_source": "scholar",
+      "_ref_id": "tokugawa_political_writings"
+    },
+    {
+      "title": "Ordinary economies in Japan: a historical perspective, 1750-1950",
+      "type": "Book",
+      "link": "https://books.google.com/books?hl=en&lr=&id=DqslDQAAQBAJ&oi=fnd&pg=PR9&dq=Tetsuo+Najita+Japan+intellectual+foundations+modern+Japanese+politics+book&ots=t12cXC3OSW&sig=zquBnyMc3-Qj1cHTKv8Fqegx_OI",
+      "snippet": "\u2026 the intellectual history of political idealism and economy. The themes developed in this book took \u2026 These include \u201cPolitical Economy in Thought and Practice among Commoners in 19th \u2026",
+      "publication_info": {
+        "summary": "T Najita - 2009 - books.google.com",
+        "authors": [
+          {
+            "name": "T Najita"
+          }
+        ]
+      },
+      "inline_links": {
+        "cited_by": {
+          "total": 104,
+          "link": "https://scholar.google.com/scholar?cites=741168985778396961&as_sdt=5,44&sciodt=0,44&hl=en&num=3"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:IZ_bA0QpSQoJ:scholar.google.com/&scioq=Tetsuo+Najita+Japan+intellectual+foundations+modern+Japanese+politics+book&hl=en&num=3&as_sdt=0,44&as_ylo=1960&as_yhi=2025",
+        "versions": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cluster=741168985778396961&hl=en&num=3&as_sdt=0,44&as_ylo=1960&as_yhi=2025"
+        }
+      },
+      "pdf_url": null,
+      "citation_count": 104,
+      "_source": "scholar",
+      "_ref_id": "ordinary_economies_japan"
+    }
+  ]
+}
