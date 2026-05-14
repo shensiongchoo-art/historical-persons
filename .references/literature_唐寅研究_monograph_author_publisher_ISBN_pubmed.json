@@ -1,0 +1,9 @@
+{
+  "query": "\u5510\u5bc5\u7814\u7a76 monograph author publisher ISBN",
+  "database": "europepmc",
+  "papers": [
+    {
+      "_ref_id": "unnamed"
+    }
+  ]
+}

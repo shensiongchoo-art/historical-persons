@@ -1,0 +1,92 @@
+{
+  "query": "Cleopatra biography scholarly monograph",
+  "database": "scholar",
+  "papers": [
+    {
+      "title": "Cleopatra: a biography",
+      "link": "https://books.google.com/books?hl=en&lr=&id=85rikTt-kBEC&oi=fnd&pg=PR5&dq=Cleopatra+biography+scholarly+monograph&ots=r1X7BHSNA8&sig=t2nCSUlJmN-mwI7cpSq2snxpMlo",
+      "snippet": "\u2026 Today Cleopatra is best known through her extensive afterlife\u2026 to create a portrait of Cleopatra based solely on information \u2026 Cleopatra is not usually considered in this category because \u2026",
+      "pdf_url": null,
+      "citation_count": 242,
+      "publication_info": {
+        "summary": "DW Roller - 2010 - books.google.com",
+        "authors": [
+          {
+            "name": "DW Roller"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "cleopatra_biography"
+    },
+    {
+      "title": "Cleopatra: A Biography by Duane W. Roller",
+      "link": "https://muse.jhu.edu/pub/50/article/560736/summary",
+      "snippet": "\u2026 contributed to the myth of Cleopatra (x, 1), a myth perpetuated in popular culture through film, historical fiction, and even literary biography. The \u201crecension of the myth of Cleopatra\u201d (6) \u2026",
+      "pdf_url": null,
+      "citation_count": 0,
+      "publication_info": {
+        "summary": "CJ King - Mouseion: Journal of the Classical Association of \u2026, 2011 - muse.jhu.edu",
+        "authors": [
+          {
+            "name": "CJ King"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "cleopatra_biography_duane"
+    },
+    {
+      "title": "The reign of Cleopatra",
+      "link": "https://books.google.com/books?hl=en&lr=&id=KSonyiReFY8C&oi=fnd&pg=PR5&dq=Cleopatra+biography+scholarly+monograph&ots=9cf0CYIavO&sig=gXkleF76670COc8q19ZNfFXqkNI",
+      "snippet": "\u2026 containing brief biographies of sixteen figures who played major roles in Cleopatra's life, as \u2026 The biographies will give substance to the figures only briefy mentioned in the text, while \u2026",
+      "pdf_url": "https://www.academia.edu/download/40326273/Reign_of_cleopatra.pdf",
+      "citation_count": 107,
+      "publication_info": {
+        "summary": "SM Burstein - 2007 - books.google.com",
+        "authors": [
+          {
+            "name": "SM Burstein"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "reign_cleopatra"
+    },
+    {
+      "title": "Cleopatra and Egypt",
+      "link": "https://books.google.com/books?hl=en&lr=&id=hoCsrpuezNMC&oi=fnd&pg=PR7&dq=Cleopatra+biography+scholarly+monograph&ots=4b8XX178L9&sig=UQJ7iAThNj7qS1ahL3zcPc2jCFQ",
+      "snippet": "\u2026 2.1 MODERN BIOGRAPHIES Many biographies of Cleopatra VII draw upon Roman texts as their main sources. Modern historians are clearly aware that such texts are politically or \u2026",
+      "pdf_url": null,
+      "citation_count": 96,
+      "publication_info": {
+        "summary": "SA Ashton - 2009 - books.google.com",
+        "authors": [
+          {
+            "name": "SA Ashton",
+            "link": "https://scholar.google.com/citations?user=dLS5YTUAAAAJ&hl=en&num=5&oi=sra"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "cleopatra_egypt"
+    },
+    {
+      "title": "Cleopatra Selene: The Iconography and Cultural Inheritance of Cleopatra's Daughter",
+      "link": "https://search.proquest.com/openview/fcfdc5a6794fd6772caaf3545e7c1d5d/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "snippet": "\u2026 , Cleopatra Selene has existed on the margins of Ptolemaic history. Consequently, this thesis recontextualizes Cleopatra \u2026 the first monograph that discussed the life of Cleopatra Selene \u2026",
+      "pdf_url": "https://www.academia.edu/download/114315108/Devon_DeRouen_Cleopatra_Selene_Thesis_Final.pdf",
+      "citation_count": 1,
+      "publication_info": {
+        "summary": "D DeRouen - 2024 - search.proquest.com",
+        "authors": [
+          {
+            "name": "D DeRouen"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "cleopatra_selene_iconography"
+    }
+  ]
+}

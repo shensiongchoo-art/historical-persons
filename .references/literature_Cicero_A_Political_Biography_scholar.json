@@ -1,0 +1,92 @@
+{
+  "query": "Cicero A Political Biography",
+  "database": "scholar",
+  "papers": [
+    {
+      "title": "Biography and history",
+      "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781405185110.ch54",
+      "snippet": "\u2026 political biography could employ the topical organization. The remainder of this chapter will examine more closely historical/political biography\u2026 not politically active, but his friends Cicero \u2026",
+      "pdf_url": "https://www.amas.hk/pdf/lishishenxue/1/A%20Companion%20to%20Greek%20and%20Roman%20Historiography%20(2%20Vols.%20Set)%20(John%20Marincola)%20(z-lib.org).pdf#page=598",
+      "citation_count": 87,
+      "publication_info": {
+        "summary": "P Stadter - A companion to Greek and Roman historiography, 2007 - Wiley Online Library",
+        "authors": [
+          {
+            "name": "P Stadter"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "biography_history"
+    },
+    {
+      "title": "Cicero: His life and career",
+      "link": "https://brill.com/downloadpdf/display/book/edcoll/9789047400936/BP000002.pdf",
+      "snippet": "\u2026 only a basic outline of Cicero's life and career. For \u2026 biographical studies on Cicero, several of which are listed in the bibliography below (21 ). The best ancient sources include Cicero's \u2026",
+      "pdf_url": null,
+      "citation_count": 41,
+      "publication_info": {
+        "summary": "JM May - Brill's Companion to Cicero, 2002 - brill.com",
+        "authors": [
+          {
+            "name": "JM May"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "cicero_his_life"
+    },
+    {
+      "title": "The political biographies of Cornelius Nepos",
+      "link": "https://books.google.com/books?hl=en&lr=&id=cmX_UgTGLdQC&oi=fnd&pg=PR11&dq=Cicero+A+Political+Biography&ots=Q6y3-_GJlL&sig=kyNia4fff-QESfcmZqcM9DhlIMI",
+      "snippet": "\u2026 Atticus and Cicero, I argue that Nepos shared their conservative and republican politics while \u2026 of Nepos\u2019 cultural position between Catullus and Cicero. In the third chapter, I synthesize \u2026",
+      "pdf_url": null,
+      "citation_count": 109,
+      "publication_info": {
+        "summary": "SR Stem - 2012 - books.google.com",
+        "authors": [
+          {
+            "name": "SR Stem"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "political_biographies_cornelius"
+    },
+    {
+      "title": "Republican Rome: autobiography and political struggles",
+      "link": "https://brill.com/downloadpdf/display/book/edcoll/9789004214651/B9789004214651-s005.pdf",
+      "snippet": "\u2026 Cicero offers it when he asserts that he does not have access to any work written by Scipio.Now, if the letter had had any important political significance, Cicero \u2026 wrote his biography and \u2026",
+      "pdf_url": null,
+      "citation_count": 40,
+      "publication_info": {
+        "summary": "JM Candau - Political Autobiographies and Memoirs in Antiquity, 2011 - brill.com",
+        "authors": [
+          {
+            "name": "JM Candau"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "republican_rome_autobiography"
+    },
+    {
+      "title": "Cicero",
+      "link": "https://www.torrossa.com/it/resources/an/5203215",
+      "snippet": "\u2026 In addition to his speeches and letters, Cicero published a number of works on rhetoric, politics, \u2026 \u2019s works, the personal letters he exchanged, and the biography of the Greek historian \u2026",
+      "pdf_url": null,
+      "citation_count": 126,
+      "publication_info": {
+        "summary": "K Tempest - 2011 - torrossa.com",
+        "authors": [
+          {
+            "name": "K Tempest",
+            "link": "https://scholar.google.com/citations?user=K3FooOkAAAAJ&hl=en&num=5&oi=sra"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "cicero"
+    }
+  ]
+}

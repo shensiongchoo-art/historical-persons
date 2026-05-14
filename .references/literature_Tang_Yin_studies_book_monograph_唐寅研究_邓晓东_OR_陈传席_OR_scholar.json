@@ -1,0 +1,30 @@
+{
+  "query": "Tang Yin studies book monograph \u5510\u5bc5\u7814\u7a76 \u9093\u6653\u4e1c OR \u9648\u4f20\u5e2d OR \u5468\u79ef\u5bc5",
+  "database": "scholar",
+  "papers": [
+    {
+      "title": "\u4e2d\u56fd\u753b\u53f2\u7814\u7a76\u4e2d\u7684\u82e5\u5e72\u95ee\u9898\u2014\u2014\u4ece\u300a \u4e2d\u56fd\u753b\u827a\u672f\u4e13\u53f2\u4e1b\u4e66\u300b \u64b0\u5199\u7684\u89d2\u5ea6",
+      "type": "Citation",
+      "snippet": "",
+      "publication_info": {
+        "summary": "\u5468\u79ef\u5bc5 - \u827a\u672f\u767e\u5bb6, 2009",
+        "authors": [
+          {
+            "name": "\u5468\u79ef\u5bc5"
+          }
+        ]
+      },
+      "inline_links": {
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:k9wwI1obbEQJ:scholar.google.com/&scioq=Tang+Yin+studies+book+monograph+%E5%94%90%E5%AF%85%E7%A0%94%E7%A9%B6+%E9%82%93%E6%99%93%E4%B8%9C+OR+%E9%99%88%E4%BC%A0%E5%B8%AD+OR+%E5%91%A8%E7%A7%AF%E5%AF%85&hl=en&as_sdt=0,48&as_ylo=1990&as_yhi=2026",
+        "versions": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cluster=4930345766015261843&hl=en&as_sdt=0,48&as_ylo=1990&as_yhi=2026"
+        }
+      },
+      "pdf_url": null,
+      "citation_count": 0,
+      "_source": "scholar",
+      "_ref_id": "ref_08b8a7"
+    }
+  ]
+}
