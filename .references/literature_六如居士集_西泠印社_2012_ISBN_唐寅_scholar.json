@@ -1,0 +1,40 @@
+{
+  "query": "\u516d\u5982\u5c45\u58eb\u96c6 \u897f\u6ce0\u5370\u793e 2012 ISBN \u5510\u5bc5",
+  "database": "scholar",
+  "papers": [
+    {
+      "title": "\u53e4\u7c4d\u4e4b\u7f8e: \u53e4\u7c4d\u7684\u63d2\u5716\u7248\u756b",
+      "link": "https://books.google.com/books?hl=en&lr=&id=p4u9EAAAQBAJ&oi=fnd&pg=PA2&dq=%E5%85%AD%E5%A6%82%E5%B1%85%E5%A3%AB%E9%9B%86+%E8%A5%BF%E6%B3%A0%E5%8D%B0%E7%A4%BE+2012+ISBN+%E5%94%90%E5%AF%85&ots=qlLW8L30qK&sig=9XbdHV3le65cyynUYjh-97leewI",
+      "snippet": "\u2026 \u96c6\u5b50\u4e0a\u767e\u5377,\u6479\u5370\u66f8\u767e\u90e8;\u300a\u9053\u5fb7\u7d93\u5ee3\u8056\u7fa9\u300b\u96d5\u6210\u7248\u7247\u56db\u767e\u516d\u5341\u9918\u584a[40] ;\u76e3\u7248\u300a\u4e5d\u7d93\u300b\u7684\u520a\u5370,\u6b77\u6642\u5341\u4e8c \u8f09;\u5176\u4ed6\u5982\u300a\u6587\u9078\u300b,\u300a\u767d\u6c0f\u516d\u2026 \u9019\u4e9b\u5716\u7c4d\u7684\u520a\u5370,\u4e0d\u50c5\u8aaa\u660e\u5370\u66f8\u6578\u91cf\u5287\u589e,\u4e5f\u8868\u660e\u96d5\u5370\u6280\u85dd\u7684\u9032\u6b65. \u4e94\u4ee3\u2026",
+      "pdf_url": null,
+      "citation_count": 0,
+      "publication_info": {
+        "summary": "\u5f35\u570d\u6771 - 2023 - books.google.com",
+        "authors": [
+          {
+            "name": "\u5f35\u570d\u6771"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "ref_18aa6c"
+    },
+    {
+      "title": "\u4e2d\u65e5\u53f0\u5973\u6027\u66f8\u5beb",
+      "link": "https://books.google.com/books?hl=en&lr=&id=R1EnEAAAQBAJ&oi=fnd&pg=PP5&dq=%E5%85%AD%E5%A6%82%E5%B1%85%E5%A3%AB%E9%9B%86+%E8%A5%BF%E6%B3%A0%E5%8D%B0%E7%A4%BE+2012+ISBN+%E5%94%90%E5%AF%85&ots=kMXjuGfs6B&sig=ZvCFWoRHroMD23bFZaC_fgaqhP4",
+      "snippet": "\u2026 \u4ee5\u5c0f\u8aaa\u5275\u4f5c\u800c\u8a00,\u6797\u6d77\u97f3\u7684\u300a\u57ce\u5357\u820a\u4e8b\u300b\u662f\u5728\u4e00\u4e5d\u516d0\u5e74\u4e03\u6708\u7531 \u5149\u555f\u51fa\u7248\u793e\u51fa\u7248.\u5176\u4e2d\u540c\u540d\u7684<\u862d \u59e8\u5a18>\u4ee5<\u57ce\u5357\u820a\u4e8b>\u7684\u7bc7\u984c,\u5206 \u4e0a\u4e0b,\u4e00\u4e5d\u4e94\u4e03\u5e74\u5341\u4e8c\u6708\u4e00\u65e5,\u5341\u516d\u65e5\u520a\u767b\u5728\u300a\u81ea\u7531\u4e2d\u570b\u300b\u96dc\u8a8c\u7b2c\u5341 \u4e03\u5377\u2026",
+      "pdf_url": null,
+      "citation_count": 0,
+      "publication_info": {
+        "summary": "\u4f55\u6606\u76ca - 2013 - books.google.com",
+        "authors": [
+          {
+            "name": "\u4f55\u6606\u76ca"
+          }
+        ]
+      },
+      "_source": "scholar",
+      "_ref_id": "ref_a4848e"
+    }
+  ]
+}
