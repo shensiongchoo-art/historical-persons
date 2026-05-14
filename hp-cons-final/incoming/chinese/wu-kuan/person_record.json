@@ -1,0 +1,48 @@
+{
+  "person_id": "P_CHN_MING_WU_KUAN",
+  "canonical_key": "wu-kuan",
+  "primary_display_name_zh": "吴宽",
+  "primary_display_name_en": "Wu Kuan",
+  "alternate_names_zh": [
+    "原博",
+    "匏庵",
+    "匏翁",
+    "玉亭主",
+    "吴文定"
+  ],
+  "alternate_names_en": [
+    "Yuanbo",
+    "Pao'an",
+    "Paoweng",
+    "Wending"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1435",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "宣德十年（1435年）",
+    "conversion_note": "standard date from 明史 vol. 184",
+    "year_number": 1435,
+    "astronomical_year": 1435
+  },
+  "death": {
+    "year_display": "1504",
+    "era": "CE",
+    "precision": "day",
+    "original_date_text": "弘治十七年七月十日（1504年8月19日）",
+    "conversion_note": "standard date from 明史 vol. 184",
+    "year_number": 1504,
+    "astronomical_year": 1504,
+    "date_display": "19 August 1504"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代成化八年状元，官至礼部尚书。诗文与书法在苏州文人圈中有重要地位，后世常将其置于吴门文学与书法传统中讨论。与沈周、文徵明等苏州文人存在关联，但具体关系强度仍需更多原始材料核实。著有《匏翁家藏集》。",
+  "short_description_en": "Ming dynasty zhuangyuan of 1472 who rose to Minister of Rites. Wu Kuan held an important place in the Suzhou literati world and is later discussed in relation to Wu School literary and calligraphic traditions. His associations with Shen Zhou, Wen Zhengming, and other Suzhou figures require further source verification for relationship strength. Author of Collected Works of Paoweng.",
+  "review_note": "Hardening v1: claims normalized to v2.5 schema. CLM_WK_006 split. CLM_WK_012 downgraded. Sources, relationships, events, works added person_id."
+}

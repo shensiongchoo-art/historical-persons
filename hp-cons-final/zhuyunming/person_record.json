@@ -1,0 +1,29 @@
+{
+  "person_id": "P_CHN_MING_ZHU_YUNMING",
+  "canonical_key": "zhu_yunming",
+  "primary_display_name_zh": "祝允明",
+  "primary_display_name_en": "Zhu Yunming",
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1461",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "明天顺五年（1461）",
+    "conversion_note": "墓志铭推算。部分中文来源记1460年，因农历年换算差异"
+  },
+  "death": {
+    "year_display": "1527",
+    "era": "CE",
+    "precision": "day",
+    "original_date_text": "明嘉靖丙戌十二月二十七日（1527年1月28日）",
+    "conversion_note": "陆粲《祝先生墓志铭》载：先生没以嘉靖丙戌冬十有二月二十七日"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代书法家、诗人、作家。字希哲，号枝山，又号枝指生（因多指畸形）。苏州府长洲县人。弘治五年举人，官至应天府通判，旋即致仕。以狂草和小楷名世。与唐寅、文徵明、徐祯卿并称"吴中四才子"（后世并称）。思想反理学，自号"狂人"。著有《怀星堂集》等。",
+  "short_description_en": "Ming dynasty calligrapher, poet, and writer. Courtesy name Xizhe, art name Zhishan. Born with a supernumerary thumb, giving himself the sobriquet 'Zhizhi Scholar.' Best known for his wild-cursive calligraphy. One of the 'Four Talents of Wu' (later grouping)."
+}

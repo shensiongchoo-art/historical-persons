@@ -1,0 +1,31 @@
+{
+  "person_id": "P_CHN_MING_001_QIU_YING",
+  "canonical_key": "qiu-ying",
+  "primary_display_name_zh": "仇英",
+  "primary_display_name_en": "Qiu Ying",
+  "alternate_names_zh": ["实父", "实甫", "十洲"],
+  "alternate_names_en": ["Shifu", "Shizhou"],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "ca. 1494",
+    "era": "CE",
+    "precision": "approximate",
+    "original_date_text": "约1494年（学者有争议，范围约1482–1505年）",
+    "conversion_note": "scholarly debate; common range 1494–1498, with 1494 most cited in Western scholarship"
+  },
+  "death": {
+    "year_display": "ca. 1552",
+    "era": "CE",
+    "precision": "approximate",
+    "original_date_text": "约1552年（学者共识较高）",
+    "conversion_note": "1552 is the most broadly accepted death year across Chinese and Western scholarship"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代职业画家，工笔青绿山水与仕女人物画代表人物，后世列为明四家之一。出身漆工，拜周臣为师，得项元汴等藏家供养。",
+  "short_description_en": "Ming dynasty professional painter renowned for meticulous gongbi blue-and-green landscapes and figure paintings; posthumously classified as one of the Four Masters of the Ming. Rose from lacquer artisan origins, studied under Zhou Chen, and was patronized by leading collectors including Xiang Yuanbian."
+}

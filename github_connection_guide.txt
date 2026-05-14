@@ -1,0 +1,80 @@
+# GitHub Connection Guide for Web-Based AI Agents
+
+Use this when GitHub token is expired, missing, or you're starting a fresh session.
+
+---
+
+## 1. Get a Personal Access Token (PAT)
+
+Go to: https://github.com/settings/tokens
+- Click "Generate new token (classic)"
+- Name: `ai-agent-workspace`
+- Expiration: 90 days (or as needed)
+- Scopes: `repo` (full), `workflow`, `read:org`
+- Copy the token immediately — it won't be shown again
+
+---
+
+## 2. Configure Git with Token
+
+```bash
+git config --global user.name "Your GitHub Username"
+git config --global user.email "your-email@example.com"
+```
+
+---
+
+## 3. Set Token as Environment Variable
+
+```bash
+export GITHUB_TOKEN="ghp_xxxxxxxxxxxxxxxxxxxx"
+```
+
+Or add to `~/.bashrc` for persistence:
+```bash
+echo 'export GITHUB_TOKEN="ghp_xxxxxxxxxxxxxxxxxxxx"' >> ~/.bashrc
+```
+
+---
+
+## 4. Test Connection
+
+```bash
+# Test git
+git ls-remote https://github.com/shensiongchoo-art/historical-persons.git
+
+# Test gh CLI
+gh auth status
+```
+
+---
+
+## 5. Clone with Token (if fresh clone needed)
+
+```bash
+git clone "https://oauth2:${GITHUB_TOKEN}@github.com/owner/repo.git"
+# OR simpler if GITHUB_TOKEN is set:
+gh repo clone owner/repo
+```
+
+---
+
+## 6. Push with Token
+
+```bash
+# git push will use the token from gh auth
+git push origin branch-name
+
+# Or explicit:
+git push "https://oauth2:${GITHUB_TOKEN}@github.com/owner/repo.git" branch-name
+```
+
+---
+
+## Security Rules
+
+- Never commit the token to the repository
+- Never hardcode tokens in scripts or config files
+- Rotate tokens every 90 days
+- Use fine-grained PATs with minimal scopes when possible
+- If token is leaked: revoke immediately at github.com/settings/tokens
