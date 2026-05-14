@@ -1,0 +1,31 @@
+{
+  "person_id": "P_CHN_MING_ZHU_YUNMING",
+  "canonical_key": "zhu-yunming",
+  "primary_display_name_zh": "祝允明",
+  "primary_display_name_en": "Zhu Yunming",
+  "alternate_names_zh": ["祝希哲", "祝枝山", "枝指生"],
+  "alternate_names_en": ["Zhu Xizhe", "Zhu Zhishan", "Zhizhi Sheng"],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming Dynasty",
+  "birth": {
+    "year_display": "1461",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "天顺五年",
+    "conversion_note": "1461年"
+  },
+  "death": {
+    "year_display": "1527",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "嘉靖六年",
+    "conversion_note": "1527年"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代苏州书法家、诗人、文学家。字希哲，号枝山。以草书狂放闻名，与唐寅、文徵明、徐祯卿合称“吴中四才子”。",
+  "short_description_en": "Ming dynasty Suzhou calligrapher, poet, and writer. Courtesy name Xizhe, art name Zhishan. Known for his bold cursive calligraphy; grouped among the 'Four Talents of Wu' with Tang Yin, Wen Zhengming, and Xu Zhenqing."
+}
