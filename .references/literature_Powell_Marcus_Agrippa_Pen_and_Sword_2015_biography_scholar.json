@@ -1,0 +1,31 @@
+{
+  "query": "Powell \"Marcus Agrippa\" \"Pen and Sword\" 2015 biography",
+  "database": "scholar",
+  "papers": [
+    {
+      "title": "Marcus Agrippa: right-hand man of Caesar Augustus",
+      "type": "Book",
+      "link": "https://books.google.com/books?hl=en&lr=&id=g_mxBgAAQBAJ&oi=fnd&pg=PP7&dq=Powell+%22Marcus+Agrippa%22+%22Pen+and+Sword%22+2015+biography&ots=811JK0hwKH&sig=krvdedTmin2K7fYqB3P3LJfFK6w",
+      "snippet": "The authoritative biography of the ancient Roman general and loyal deputy to Emperor Augustus by the acclaimed historian and author of Augustus at War. When Gaius Octavius became the first emperor of Rome, Marcus Agrippa was by his side. As the emperor's loyal deputy, he waged wars, pacified provinces, beautified Rome, and played a crucial role in establishing the Pax Romana\u2014but he always served knowing that he would never rule in his own name. Why he did so, and never grasped power for himself, has perplexed historians for centuries. In this authoritative biography, historian Lindsay Powell offers a penetrating new assessment of Agrippa's life and achievements. Following Caesar's assassination, Agrippa was instrumental in asserting the rights of his friend Gaius Octavius as the dictator's heir, seeing him crowned Emperor Augustus. Agrippa then established a reputation as a bold admiral, defeating Marcus Antonius and Queen Cleopatra at the Battle of Actium, and ending bloody rebellions in the Cimmerian Bosporus, Gaul, Hispania, and Illyricum. Agrippa was also an influential statesman and architect. He established the vital road network that turned Julius Caesar's conquests into viable provinces, overhauled Rome's drains and aqueducts, and built the original Pantheon. Marrying Augustus's daughter, Julia the Elder, Agrippa became co-ruler of the Roman Empire until his death in 12 BC. His bloodline lived on in the imperial family, through Agrippina the Elder, his grandson Caligula, and great-grandson Nero.",
+      "publication_info": {
+        "summary": "L Powell2015\u2022books.google.com",
+        "authors": [
+          {
+            "name": "L Powell"
+          }
+        ]
+      },
+      "inline_links": {
+        "cited_by": {
+          "total": 45,
+          "link": "https://scholar.google.com/scholar?cites=16251509843180091999&as_sdt=2005&sciodt=0,5&hl=en&num=5"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:X3qDIhn2iOEJ:scholar.google.com/&scioq=Powell+%22Marcus+Agrippa%22+%22Pen+and+Sword%22+2015+biography&hl=en&num=5&as_sdt=0,5&as_ylo=2014&as_yhi=2016"
+      },
+      "pdf_url": null,
+      "citation_count": 45,
+      "_source": "scholar",
+      "_ref_id": "marcus_agrippa_righthand"
+    }
+  ]
+}
