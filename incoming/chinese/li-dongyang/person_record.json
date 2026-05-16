@@ -1,0 +1,31 @@
+{
+  "person_id": "P_CHN_MING_LI_DONGYANG",
+  "canonical_key": "li-dongyang",
+  "primary_display_name_zh": "李东阳",
+  "primary_display_name_en": "Li Dongyang",
+  "alternate_names_zh": ["李宾之", "李西涯", "李文正"],
+  "alternate_names_en": ["Li Binzhi", "Li Xiya", "Li Wenzheng"],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming Dynasty",
+  "birth": {
+    "year_display": "1447",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "正统十二年",
+    "conversion_note": "1447年"
+  },
+  "death": {
+    "year_display": "1516",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "正德十一年",
+    "conversion_note": "1516年"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "adequate",
+  "short_description_zh": "明代政治家、文学家。字宾之，号西涯，湖广茶陵人。天顺八年进士，官至内阁首辅。茶陵诗派创始人，著有《李东阳集》《怀麓堂集》。卒谥文正。",
+  "short_description_en": "Ming dynasty statesman and literary leader. Courtesy name Binzhi, art name Xiya. From Chaling, Huguang. Jinshi of 1464, rose to Grand Secretary. Founder of the Chaling literary school. Author of Collected Works of Li Dongyang. Posthumous name Wenzheng."
+}

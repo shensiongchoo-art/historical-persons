@@ -1,0 +1,40 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_SEXTUS_POMPEY",
+  "canonical_key": "sextus_pompey",
+  "primary_display_name_en": "Sextus Pompey",
+  "primary_display_name_zh": "塞克斯图斯·庞培",
+  "alternate_names_en": [
+    "Sextus Pompeius Magnus Pius"
+  ],
+  "alternate_names_zh": [
+    "塞克斯图斯·庞培乌斯·马格努斯·皮乌斯"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "la",
+  "period": "Late Roman Republic",
+  "birth": {
+    "year_display": "ca. 67 BCE",
+    "era": "BCE",
+    "year_number": 67,
+    "astronomical_year": -66,
+    "precision": "decade",
+    "original_date_text": "ca. 67 BCE",
+    "conversion_note": "出生年份无古代文献直接记载。基于其父庞培前67年剿灭海盗时已结婚、其兄格奈乌斯约生于此前数年推算。"
+  },
+  "death": {
+    "year_display": "35 BCE",
+    "era": "BCE",
+    "year_number": 35,
+    "astronomical_year": -34,
+    "precision": "year",
+    "original_date_text": "35 BCE",
+    "conversion_note": "纳乌洛库斯海战失败后逃往东方，前35年在米利都被安东尼部将马库斯·提蒂乌斯处决。"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "Roman commander of the late Republic. Younger son of Pompey the Great. After Caesar's assassination, he established a naval power base in Sicily (42–36 BCE), controlling the grain supply to Rome and threatening the triumvirs. Defeated by Octavian's forces under Marcus Agrippa at the Battle of Naulochus (36 BCE). Fled to the East; executed in 35 BCE at Miletus on Mark Antony's orders. Ancient sources, written under the victorious Augustan regime, systematically label him a 'pirate' (praedo) — modern scholarship recognizes this as derogatory propaganda. Use 'commander' or 'naval commander' as neutral terms.",
+  "short_description_zh": "罗马共和国晚期军事指挥官。庞培大帝（格奈乌斯·庞培·马格努斯）的幼子。凯撒被刺后在西西里建立海军势力（前42–36年），控制罗马粮食供给，严重威胁后三头的统治。前36年在纳乌洛库斯海战中被奥古斯都部将阿格里帕击败。逃往东方，前35年在米利都被安东尼部将处决。古代文献在奥古斯都政权下编写，系统性地称其为「海盗」（praedo）——现代学术公认此为贬损性政治宣传。应使用「指挥官」或「海军指挥官」等中性术语。",
+  "review_note": "v2.5 schema. Source caution applied: Augustan propaganda label 'pirate' replaced with neutral 'commander.' Birth year approximate."
+}
