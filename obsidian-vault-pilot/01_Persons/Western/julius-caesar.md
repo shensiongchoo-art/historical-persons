@@ -121,22 +121,22 @@ Roman general, statesman, and dictator. Conqueror of Gaul (58–50 BCE), victor 
 
 | Claim ID | Date | Claim | Sources |
 |----------|------|-------|---------|
-| CLM_JC_001 | 100 BCE | Born on 12 or 13 July 100 BCE in Rome | SRC_JC_004, SRC_JC_007 |
-| CLM_JC_002 | 44 BCE | Assassinated on the Ides of March (15 March) 44 BCE in the Theatre of Pompey, Rome | SRC_JC_003, SRC_JC_004, SRC_JC_005 |
-| CLM_JC_003 | — | Belonged to gens Julia, which claimed descent from the goddess Venus | SRC_JC_004 |
-| CLM_JC_004 | 60 BCE | Formed informal political alliance with Pompey and Crassus (later termed "First Triumvirate") | SRC_JC_003, SRC_JC_007 |
-| CLM_JC_006 | 59 BCE | Served as consul | SRC_JC_003, SRC_JC_004 |
-| CLM_JC_007 | 58–50 BCE | Governor of Gaul; conquered the entirety of Gaul | SRC_JC_001, SRC_JC_007 |
-| CLM_JC_008 | Jan 49 BCE | Crossed the Rubicon River with his army, triggering civil war | SRC_JC_002, SRC_JC_003 |
-| CLM_JC_009 | 48 BCE | Defeated Pompey at the Battle of Pharsalus | SRC_JC_002, SRC_JC_003, SRC_JC_005 |
-| CLM_JC_010 | 48–47 BCE | Intervened in Ptolemaic dynastic conflict; formed relationship with Cleopatra VII | SRC_JC_003, SRC_JC_005 |
-| CLM_JC_011 | 47 BCE | Had a son with Cleopatra VII, Caesarion (Ptolemy XV) | SRC_JC_003, SRC_JC_004 |
-| CLM_JC_012 | Feb 44 BCE | Appointed dictator perpetuo by the Senate | SRC_JC_004, SRC_JC_005 |
-| CLM_JC_013 | — | Authored *Commentarii de Bello Gallico* and *Commentarii de Bello Civili* | SRC_JC_001, SRC_JC_002 |
-| CLM_JC_014 | 44 BCE | Assassination involved ~60 conspirators, including Brutus and Cassius | SRC_JC_003, SRC_JC_004, SRC_JC_005 |
-| CLM_JC_015 | posthumous | After his death, adopted son Octavian (later Augustus) inherited his political legacy | SRC_JC_004, SRC_JC_007 |
-| CLM_JC_017 | 46–45 BCE | Calendar reform establishing the 365-day Julian calendar, effective 1 Jan 45 BCE | SRC_JC_004, SRC_JC_007 |
-| CLM_JC_018 | — | Relationship with Cicero was complex: political opponent who also expressed admiration | SRC_JC_006 |
+| CLM_JC_001 | 100 BCE | Born on 12 or 13 July 100 BCE in Rome | [[SRC_JC_004]], [[SRC_JC_007]] |
+| CLM_JC_002 | 44 BCE | Assassinated on the Ides of March (15 March) 44 BCE in the Theatre of Pompey, Rome | [[SRC_JC_003]], [[SRC_JC_004]], [[SRC_JC_005]] |
+| CLM_JC_003 | — | Belonged to gens Julia, which claimed descent from the goddess Venus | [[SRC_JC_004]] |
+| CLM_JC_004 | 60 BCE | Formed informal political alliance with Pompey and Crassus (later termed "First Triumvirate") | [[SRC_JC_003]], [[SRC_JC_007]] |
+| CLM_JC_006 | 59 BCE | Served as consul | [[SRC_JC_003]], [[SRC_JC_004]] |
+| CLM_JC_007 | 58–50 BCE | Governor of Gaul; conquered the entirety of Gaul | [[SRC_JC_001]], [[SRC_JC_007]] |
+| CLM_JC_008 | Jan 49 BCE | Crossed the Rubicon River with his army, triggering civil war | [[SRC_JC_002]], [[SRC_JC_003]] |
+| CLM_JC_009 | 48 BCE | Defeated Pompey at the Battle of Pharsalus | [[SRC_JC_002]], [[SRC_JC_003]], [[SRC_JC_005]] |
+| CLM_JC_010 | 48–47 BCE | Intervened in Ptolemaic dynastic conflict; formed relationship with Cleopatra VII | [[SRC_JC_003]], [[SRC_JC_005]] |
+| CLM_JC_011 | 47 BCE | Had a son with Cleopatra VII, Caesarion (Ptolemy XV) | [[SRC_JC_003]], [[SRC_JC_004]] |
+| CLM_JC_012 | Feb 44 BCE | Appointed dictator perpetuo by the Senate | [[SRC_JC_004]], [[SRC_JC_005]] |
+| CLM_JC_013 | — | Authored *Commentarii de Bello Gallico* and *Commentarii de Bello Civili* | [[SRC_JC_001]], [[SRC_JC_002]] |
+| CLM_JC_014 | 44 BCE | Assassination involved ~60 conspirators, including Brutus and Cassius | [[SRC_JC_003]], [[SRC_JC_004]], [[SRC_JC_005]] |
+| CLM_JC_015 | posthumous | After his death, adopted son Octavian (later Augustus) inherited his political legacy | [[SRC_JC_004]], [[SRC_JC_007]] |
+| CLM_JC_017 | 46–45 BCE | Calendar reform establishing the 365-day Julian calendar, effective 1 Jan 45 BCE | [[SRC_JC_004]], [[SRC_JC_007]] |
+| CLM_JC_018 | — | Relationship with Cicero was complex: political opponent who also expressed admiration | [[SRC_JC_006]] |
 
 ---
 
@@ -144,7 +144,7 @@ Roman general, statesman, and dictator. Conqueror of Gaul (58–50 BCE), victor 
 
 | Claim ID | Type | Claim | Sources |
 |----------|------|-------|---------|
-| CLM_JC_005 | reception | "First Triumvirate" is a later historiographical label, not a formal contemporary institution | SRC_JC_007 |
+| CLM_JC_005 | reception | "First Triumvirate" is a later historiographical label, not a formal contemporary institution | [[SRC_JC_007]] |
 | CLM_JC_016 | legendary | Shakespeare's "Et tu, Brute?" is a literary creation, not a historical record | (no sources - classified as legendary) |
 
 ---

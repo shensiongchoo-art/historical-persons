@@ -107,16 +107,16 @@ Ming dynasty Suzhou literatus, painter, poet, and calligrapher. Placed first in 
 
 | Claim ID | Date | Claim (ZH) | Sources |
 |----------|------|------------|---------|
-| CLM_TY_001 | 1470 | 唐寅生于明成化六年（1470年），苏州府吴县人 | SRC_TY_001 |
-| CLM_TY_002 | 1524 | 唐寅卒于嘉靖二年十二月二日（1524年1月7日） | SRC_TY_001 |
-| CLM_TY_003 | — | 本名唐寅，字伯虎，又字子畏，号六如居士、桃花庵主等 | SRC_TY_001, SRC_TY_002 |
-| CLM_TY_004 | 1498 | 弘治十一年应天府乡试第一名，为解元 | SRC_TY_001 |
-| CLM_TY_005 | 1499 | 卷入会试科场案，被牵连下狱，后黜为吏 | SRC_TY_001, SRC_TY_003 |
-| CLM_TY_007 | 1499+ | 科场案后放弃仕途，以卖画为生 | SRC_TY_001, SRC_TY_007 |
-| CLM_TY_008 | — | 以山水画、人物画闻名，兼工花鸟 | SRC_TY_004, SRC_TY_007 |
-| CLM_TY_009 | — | 以诗词著称，诗风清新不拘，部分作品反映个人坎坷经历 | SRC_TY_002 |
-| CLM_TY_013 | — | 《王蜀宫妓图》（又名《四美图》）藏于北京故宫博物院 | SRC_TY_004 |
-| CLM_TY_014 | late life | 晚年自号"六如居士"，取《金刚经》如梦、幻、泡、影、露、电之意 | SRC_TY_002 |
+| CLM_TY_001 | 1470 | 唐寅生于明成化六年（1470年），苏州府吴县人 | [[SRC_TY_001]] |
+| CLM_TY_002 | 1524 | 唐寅卒于嘉靖二年十二月二日（1524年1月7日） | [[SRC_TY_001]] |
+| CLM_TY_003 | — | 本名唐寅，字伯虎，又字子畏，号六如居士、桃花庵主等 | [[SRC_TY_001]], [[SRC_TY_002]] |
+| CLM_TY_004 | 1498 | 弘治十一年应天府乡试第一名，为解元 | [[SRC_TY_001]] |
+| CLM_TY_005 | 1499 | 卷入会试科场案，被牵连下狱，后黜为吏 | [[SRC_TY_001]], [[SRC_TY_003]] |
+| CLM_TY_007 | 1499+ | 科场案后放弃仕途，以卖画为生 | [[SRC_TY_001]], [[SRC_TY_007]] |
+| CLM_TY_008 | — | 以山水画、人物画闻名，兼工花鸟 | [[SRC_TY_004]], [[SRC_TY_007]] |
+| CLM_TY_009 | — | 以诗词著称，诗风清新不拘，部分作品反映个人坎坷经历 | [[SRC_TY_002]] |
+| CLM_TY_013 | — | 《王蜀宫妓图》（又名《四美图》）藏于北京故宫博物院 | [[SRC_TY_004]] |
+| CLM_TY_014 | late life | 晚年自号"六如居士"，取《金刚经》如梦、幻、泡、影、露、电之意 | [[SRC_TY_002]] |
 
 ---
 
@@ -124,11 +124,11 @@ Ming dynasty Suzhou literatus, painter, poet, and calligrapher. Placed first in 
 
 | Claim ID | Date | Claim (ZH) | Status | Sources |
 |----------|------|------------|--------|---------|
-| CLM_TY_006 | 1499 | 科场案的具体责任归属存在争议；唐寅是否受贿或仅受牵连，史书记载有分歧 | **disputed** | SRC_TY_001 |
-| CLM_TY_012 | — | 曾师从周臣学画 | probable | SRC_TY_007 |
-| CLM_TY_016 | — | 在苏州文人圈中有重要地位，与沈周、文徵明、祝允明、徐祯卿等有交往，但具体关系性质需更多原始材料核实 | probable | SRC_TY_002, SRC_TY_007 |
-| CLM_TY_017 | early life | 年轻时以才名闻于乡里，与祝允明等早有交游 | probable | SRC_TY_001 |
-| CLM_TY_018 | — | 绘画风格融合了南宋院体与文人画传统 | probable | SRC_TY_007 |
+| CLM_TY_006 | 1499 | 科场案的具体责任归属存在争议；唐寅是否受贿或仅受牵连，史书记载有分歧 | **disputed** | [[SRC_TY_001]] |
+| CLM_TY_012 | — | 曾师从周臣学画 | probable | [[SRC_TY_007]] |
+| CLM_TY_016 | — | 在苏州文人圈中有重要地位，与沈周、文徵明、祝允明、徐祯卿等有交往，但具体关系性质需更多原始材料核实 | probable | [[SRC_TY_002]], [[SRC_TY_007]] |
+| CLM_TY_017 | early life | 年轻时以才名闻于乡里，与祝允明等早有交游 | probable | [[SRC_TY_001]] |
+| CLM_TY_018 | — | 绘画风格融合了南宋院体与文人画传统 | probable | [[SRC_TY_007]] |
 
 ---
 
@@ -136,8 +136,8 @@ Ming dynasty Suzhou literatus, painter, poet, and calligrapher. Placed first in 
 
 | Claim ID | Type | Claim (ZH) | Sources |
 |----------|------|------------|---------|
-| CLM_TY_010 | reception | 后世美术史中列为"明四家"之一（与沈周、文徵明、仇英并称） | SRC_TY_007, SRC_TY_009 |
-| CLM_TY_011 | reception | 后世文学传统中列入"吴中四才子"（与祝允明、文徵明、徐祯卿并称） | SRC_TY_007, SRC_TY_009 |
+| CLM_TY_010 | reception | 后世美术史中列为"明四家"之一（与沈周、文徵明、仇英并称） | [[SRC_TY_007]], [[SRC_TY_009]] |
+| CLM_TY_011 | reception | 后世文学传统中列入"吴中四才子"（与祝允明、文徵明、徐祯卿并称） | [[SRC_TY_007]], [[SRC_TY_009]] |
 | CLM_TY_015 | legendary | "唐伯虎点秋香"是后世文学作品和戏曲中的虚构/传奇性故事，不应视为唐寅真实生平 | (no sources - classified as legendary) |
 
 ---
@@ -155,7 +155,7 @@ Validation: PASSED
 - **Current:** `ai_collected_unreviewed` — staging-ready, not master-approved
 - **Source sufficiency:** `adequate_with_caveats` — 9 sources (7 non-D), source density 0.39
 - **Next review actions:**
-  - Verify SRC_TY_003 (academic monograph) exact page references
+  - Verify [[SRC_TY_003]] (academic monograph) exact page references
   - Ensure 科场案 claims maintain disputed/uncertain language
   - Confirm 唐伯虎点秋香 separation from historical biography is complete
 
