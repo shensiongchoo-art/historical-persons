@@ -1,0 +1,31 @@
+{
+  "person_id": "P_CHN_MING_LI_MENGYANG",
+  "canonical_key": "li-mengyang",
+  "primary_display_name_zh": "李梦阳",
+  "primary_display_name_en": "Li Mengyang",
+  "alternate_names_zh": ["李献吉", "李空同"],
+  "alternate_names_en": ["Li Xianji", "Li Kongtong"],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming Dynasty",
+  "birth": {
+    "year_display": "1473",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "成化九年",
+    "conversion_note": "1473年"
+  },
+  "death": {
+    "year_display": "1530",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "嘉靖九年",
+    "conversion_note": "1530年"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "adequate",
+  "short_description_zh": "明代文学家，前七子之首。字献吉，号空同。弘治六年进士。倡导文学复古，主张“文必秦汉，诗必盛唐”。著有《空同集》。",
+  "short_description_en": "Ming dynasty literary figure, leader of the Former Seven Masters. Courtesy name Xianji, art name Kongtong. Jinshi of 1493. Advocated literary archaism. Author of the Kongtong Collection."
+}

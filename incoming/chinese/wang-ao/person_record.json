@@ -1,0 +1,29 @@
+{
+  "person_id": "P_CHN_MING_WANG_AO",
+  "canonical_key": "wang_ao",
+  "primary_display_name_zh": "王鏊",
+  "primary_display_name_en": "Wang Ao",
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1450",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "明景泰元年（1450年）",
+    "conversion_note": "具体月日待核实"
+  },
+  "death": {
+    "year_display": "1524",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "明嘉靖三年（1524年）",
+    "conversion_note": "具体月日待核实。卒于苏州。"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代苏州籍官员、学者、文学家。字济之，号守溪，晚号拙叟，世称震泽先生。南直隶苏州府吴县人。成化十一年（1475）进士，廷试第三人（探花）。官至户部尚书、武英殿大学士。参与编纂《明宪宗实录》。与吴宽等苏州同乡官员结成五同会。著有《震泽集》《震泽长语》《姑苏志》等。谥文恪。",
+  "short_description_en": "Ming dynasty Suzhou official, scholar, and writer. Courtesy name Jizhi, art name Shouxi, commonly known as Master Zhenze. Native of Wu County, Suzhou. Passed jinshi examination in 1475, placing third overall (tanhua). Rose to Minister of Revenue and Grand Secretary of the Wuying Hall. Participated in compiling the Veritable Records of Emperor Xianzong. Formed the Five Commonalities Society (五同会) with Wu Kuan and other Suzhou native officials. Author of Zhenze ji (Collected Works of Zhenze), Zhenze changyu, and Gusu zhi (Gazetteer of Suzhou). Posthumously titled Wenke."
+}
