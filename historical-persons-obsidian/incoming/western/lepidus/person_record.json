@@ -1,0 +1,40 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_LEPIDUS",
+  "canonical_key": "lepidus",
+  "primary_display_name_en": "Marcus Aemilius Lepidus",
+  "primary_display_name_zh": "马库斯·埃米利乌斯·雷必达",
+  "alternate_names_en": [
+    "Lepidus"
+  ],
+  "alternate_names_zh": [
+    "雷必达"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "la",
+  "period": "Late Roman Republic",
+  "birth": {
+    "year_display": "ca. 89 BCE",
+    "era": "BCE",
+    "year_number": 89,
+    "astronomical_year": -88,
+    "precision": "decade",
+    "original_date_text": "ca. 89 BCE",
+    "conversion_note": "出生年份无古代文献直接记载。基于其仕途时间推算：前49年任市政官、前46年任骑兵司令（magister equitum），推断出生于前89年前后。"
+  },
+  "death": {
+    "year_display": "13 BCE",
+    "era": "BCE",
+    "year_number": 13,
+    "astronomical_year": -12,
+    "precision": "year",
+    "original_date_text": "13 BCE",
+    "conversion_note": "卒年据古代文献可确定。卒于意大利Circaeum（一说Circeii）。晚年保留大祭司（pontifex maximus）头衔但已无实权。"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "Roman politician of the late Republic. Praetor (49 BCE), magister equitum under Caesar (46–44 BCE), consul (46 BCE), member of the Second Triumvirate with Mark Antony and Octavian (43–36 BCE). Pontifex maximus from 44 BCE until his death. Stripped of his provinces by Octavian in 36 BCE after attempting to claim Sicily. Retained the pontificate but lived in political obscurity thereafter. Sources are thin; later reputation as the 'weakest' triumvir reflects Augustan-era bias.",
+  "short_description_zh": "罗马共和国晚期政治家。曾任市政官（前49年）、凯撒的骑兵司令（前46–44年）、执政官（前46年），与安东尼和屋大维组成后三头同盟（前43–36年）。自前44年起任大祭司直至去世。前36年因试图夺取西西里而被屋大维剥夺行省，保留大祭司头衔但再无实权。古代文献记载甚薄；其「最弱三头」的名声反映了奥古斯都时代的政治偏见。",
+  "review_note": "v2.5 schema. Source caution applied: thin ancient sources, pro-Augustan reception bias. Birth year approximate."
+}

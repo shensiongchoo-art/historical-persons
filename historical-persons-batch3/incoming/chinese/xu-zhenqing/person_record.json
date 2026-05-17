@@ -1,0 +1,31 @@
+{
+  "person_id": "P_CHN_MING_XU_ZHENQING",
+  "canonical_key": "xu-zhenqing",
+  "primary_display_name_zh": "徐祯卿",
+  "primary_display_name_en": "Xu Zhenqing",
+  "alternate_names_zh": ["徐昌谷", "徐昌国"],
+  "alternate_names_en": ["Xu Changgu", "Xu Changguo"],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming Dynasty",
+  "birth": {
+    "year_display": "1479",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "成化十五年",
+    "conversion_note": "1479年"
+  },
+  "death": {
+    "year_display": "1511",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "正德六年",
+    "conversion_note": "1511年"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "adequate_with_caveats",
+  "short_description_zh": "明代诗人、文学家。字昌谷，吴县人。弘治十八年进士，以诗名世，与唐寅、祝允明、文徵明合称“吴中四才子”。亦与李梦阳等被称为“前七子”之一。早卒，年仅三十三。",
+  "short_description_en": "Ming dynasty poet and literary figure. Courtesy name Changgu, from Wu County. Jinshi of 1505; known for his poetry. Grouped among the 'Four Talents of Wu' and associated with the 'Former Seven Masters'. Died young at age 33."
+}

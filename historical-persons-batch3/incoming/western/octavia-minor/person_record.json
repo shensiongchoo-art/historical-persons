@@ -1,0 +1,41 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_OCTAVIA_MINOR",
+  "canonical_key": "octavia_minor",
+  "primary_display_name_en": "Octavia Minor",
+  "primary_display_name_zh": "小屋大维娅",
+  "alternate_names_en": [
+    "Octavia the Younger",
+    "Octavia Thurina Minor"
+  ],
+  "alternate_names_zh": [
+    "奥克塔维娅"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "la",
+  "period": "Late Roman Republic / Early Empire",
+  "birth": {
+    "year_display": "ca. 69 BCE",
+    "era": "BCE",
+    "year_number": 69,
+    "astronomical_year": -68,
+    "precision": "decade",
+    "original_date_text": "ca. 69 BCE",
+    "conversion_note": "出生年份无古代文献直接记载。基于其弟屋大维生于前63年及本人婚姻时间推算。"
+  },
+  "death": {
+    "year_display": "11 BCE",
+    "era": "BCE",
+    "year_number": 11,
+    "astronomical_year": -10,
+    "precision": "year",
+    "original_date_text": "11 BCE",
+    "conversion_note": "卒年据古代文献可确定。卒于罗马。奥古斯都为其举行国葬并亲自致悼词。"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "Roman noblewoman of the late Republic. Full sister of Augustus (Octavian) by the same mother, Atia Balba Caesonia. Married Gaius Claudius Marcellus (consul 50 BCE) and later Mark Antony (40 BCE) as part of the Treaty of Brundisium, sealing the political reconciliation between Antony and Octavian. Divorced by Antony in 32 BCE when he formally allied with Cleopatra VII. After the divorce, she raised Antony's children (including those by Fulvia and Cleopatra) alongside her own. Mother of Marcellus (Augustus's intended heir) and Antonia Major and Minor. Publicly honored by Augustus: the Porticus Octaviae and a state funeral with public mourning attest to her dynastic importance. Ancient sources heavily moralize her as the virtuous Roman wife contrasted with Cleopatra — treat this framing as reception.",
+  "short_description_zh": "罗马共和国晚期贵族女性。奥古斯都（屋大维）的同母姐姐。先嫁盖乌斯·克劳狄乌斯·马塞卢斯（前50年执政官），后因布伦迪西乌姆条约的政治需要嫁给马克·安东尼（前40年），成为安东尼与屋大维和解的人质纽带。前32年被安东尼为克娄巴特拉七世所弃。离婚后抚养安东尼与前妻富尔维娅及与克娄巴特拉所生的子女，同时抚养自己的子女。其子马塞卢斯曾为奥古斯都的假定继承人。奥古斯都为其建造奥克塔维娅柱廊（Porticus Octaviae），死后举行国葬。古代文献将其高度道德化为「贤德罗马妻子」并与克娄巴特拉形成对比——此叙述框架应视为接受史而非中立史实。",
+  "review_note": "v2.5 schema. Source caution applied: heavily moralized Roman portrayal. Birth year approximate."
+}

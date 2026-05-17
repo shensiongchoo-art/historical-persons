@@ -1,0 +1,42 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_MARCUS_JUNIUS_BRUTUS",
+  "canonical_key": "marcus-junius-brutus",
+  "primary_display_name_en": "Marcus Junius Brutus",
+  "primary_display_name_zh": "马库斯·尤尼乌斯·布鲁图斯",
+  "alternate_names_en": [
+    "Brutus",
+    "Quintus Servilius Caepio Brutus"
+  ],
+  "alternate_names_zh": [
+    "布鲁图斯",
+    "布鲁图"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "la",
+  "period": "Late Roman Republic",
+  "birth": {
+    "year_display": "c. 85 BCE",
+    "era": "BCE",
+    "year_number": 85,
+    "astronomical_year": -84,
+    "precision": "year",
+    "original_date_text": "c. 85 BCE, Rome",
+    "conversion_note": "Birth year conventionally placed at 85 BCE based on Cicero's references to his age and career timeline (Brut. 324). Some scholars argue for 78 BCE based on Velleius Paterculus (2.72.1)."
+  },
+  "death": {
+    "year_display": "42 BCE",
+    "era": "BCE",
+    "year_number": 42,
+    "astronomical_year": -41,
+    "precision": "month",
+    "original_date_text": "October 42 BCE, near Philippi, Macedonia",
+    "conversion_note": "Defeated by Antony and Octavian at the second engagement of the Battle of Philippi. Brutus committed suicide to avoid capture. Plutarch (Brut. 52) provides the most detailed account."
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "Roman senator and politician of the late Republic. Son of Servilia (Caesar's mistress). Urban praetor (44 BCE). Leading conspirator in the assassination of Julius Caesar (15 March 44 BCE). Fled to the East, raised an army with Cassius. Defeated and killed at the Battle of Philippi (42 BCE) by Antony and Octavian. Stoic-inclined philosopher and friend of Cicero.",
+  "short_description_zh": "罗马共和国晚期元老、政治家。塞维莉娅（凯撒情妇）之子。曾任城市裁判官（前44年）。刺杀尤利乌斯·凯撒的主要策划者（前44年3月15日）。逃往东方与卡西乌斯共同组建军队。在腓立比战役（前42年）中被安东尼与屋大维击败后自杀。倾向斯多葛学派的哲学家，西塞罗的挚友。",
+  "review_note": ""
+}

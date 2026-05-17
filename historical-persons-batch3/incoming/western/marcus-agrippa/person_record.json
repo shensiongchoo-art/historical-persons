@@ -1,0 +1,35 @@
+{
+  "person_id": "P_WEST_EARLY_PRINCIPATE_MARCUS_VIPSANIUS_AGRIPPA",
+  "canonical_key": "marcus-agrippa",
+  "primary_display_name_en": "Marcus Vipsanius Agrippa",
+  "primary_display_name_zh": "马库斯·维普萨尼乌斯·阿格里帕",
+  "alternate_names_en": ["Agrippa", "Marcus Agrippa"],
+  "alternate_names_zh": ["阿格里帕"],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "en",
+  "period": "Late Roman Republic / Early Principate",
+  "birth": {
+    "year_display": "ca. 64-62 BCE",
+    "era": "BCE",
+    "year_number": 63,
+    "astronomical_year": -62,
+    "precision": "uncertain",
+    "original_date_text": "ca. 64 or 63 BCE",
+    "conversion_note": "Exact birth year uncertain; 63 BCE commonly cited"
+  },
+  "death": {
+    "year_display": "12 BCE",
+    "era": "BCE",
+    "year_number": 12,
+    "astronomical_year": -11,
+    "precision": "year",
+    "original_date_text": "March 12 BCE",
+    "conversion_note": "Died in Campania"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "adequate_with_caveats",
+  "short_description_en": "Roman general, admiral, and administrator; close associate of Augustus. Victor at the Battle of Actium (31 BCE). Oversaw extensive public works in Rome (Pantheon, aqueducts, baths). Married to Augustus' daughter Julia; grandfather of Caligula and great-grandfather of Nero.",
+  "short_description_zh": "罗马将军、海军统帅和行政官，奥古斯都的亲密伙伴。亚克兴海战（前31年）的胜利者。主持罗马大规模公共工程（万神殿、引水渠、浴场）。娶奥古斯都之女尤利亚为妻，为卡利古拉之祖父、尼禄之曾外祖父。"
+}

@@ -1,0 +1,40 @@
+{
+  "person_id": "P_WEST_ROMAN_001_AUGUSTUS",
+  "canonical_key": "augustus-octavian",
+  "primary_display_name_en": "Augustus",
+  "primary_display_name_zh": "奥古斯都",
+  "alternate_names_en": [
+    "Gaius Octavius",
+    "Octavian",
+    "Imperator Caesar Divi Filius Augustus"
+  ],
+  "alternate_names_zh": [
+    "屋大维",
+    "奥克塔维安"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "la",
+  "period": "Late Republic / Early Empire",
+  "birth": {
+    "year_display": "63 BCE",
+    "era": "BCE",
+    "year_number": 63,
+    "astronomical_year": -62,
+    "precision": "day",
+    "original_date_text": "23 September 63 BCE, Rome (Palatine Hill)",
+    "conversion_note": "Suetonius (Aug. 5) and Velleius Paterculus give 23 September; Cassius Dio gives 22 September. Scholarly consensus favors 23 September."
+  },
+  "death": {
+    "year_display": "14 CE",
+    "era": "CE",
+    "precision": "day",
+    "original_date_text": "19 August 14 CE, Nola, Italy",
+    "conversion_note": "died at approximately 3pm; last words per Suetonius (Aug. 99): \"Acta est fabula, plaudite\""
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "First Roman princeps (27 BCE–14 CE), rose from Caesar's testamentary heir through the Second Triumvirate and civil war to establish the Principate—a system of one-man rule presented in republican forms. His constitutional powers, military patronage, and personal auctoritas created the template for imperial succession.",
+  "short_description_zh": "罗马第一位元首（princeps，前27年–14年在位），从凯撒遗嘱继承人崛起，经后三头同盟与内战，建立以共和形式包装的个人统治体系——元首制（Principate）。其宪政权力、军事庇护与个人威望为帝国继承奠定了基础。"
+}

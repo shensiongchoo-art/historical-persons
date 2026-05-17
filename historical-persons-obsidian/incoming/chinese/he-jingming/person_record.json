@@ -1,0 +1,29 @@
+{
+  "person_id": "P_CHN_MING_HE_JINGMING",
+  "canonical_key": "he_jingming",
+  "primary_display_name_zh": "何景明",
+  "primary_display_name_en": "He Jingming",
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1483",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "明成化十九年（1483年）",
+    "conversion_note": "具体月日待核实。生于河南信阳。"
+  },
+  "death": {
+    "year_display": "1521",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "明正德十六年（1521年）",
+    "conversion_note": "具体月日待核实。卒年三十九岁（虚岁）。"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代文学家、前七子领袖之一。字仲默，号大复山人，世称大复先生。河南信阳人。弘治十五年（1502）进士，官至陕西提学副使。与李梦阳同为前七子倡导者，倡言「文必秦汉，诗必盛唐」。二人因文学主张分歧展开著名的李何之争（李何论辩），为明代文学批评史重要事件。著有《大复集》等。",
+  "short_description_en": "Ming dynasty literary figure, co-leader of the Former Seven Masters (Qian qi zi). Courtesy name Zhongmo, art name Dafu, commonly known as Master Dafu. Native of Xinyang, Henan. Passed jinshi examination in 1502, rose to Vice Commissioner of Education for Shaanxi. Together with Li Mengyang, led the Former Seven Masters' archaist movement advocating 'prose must follow Qin-Han, poetry must follow High Tang.' Their literary disagreements produced the famous Li-He debate, a landmark in Ming literary criticism. Author of Dafu ji (Collected Works of Dafu)."
+}

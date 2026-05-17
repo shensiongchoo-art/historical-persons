@@ -1,0 +1,31 @@
+{
+  "person_id": "P_CHN_MING_TANG_YIN",
+  "canonical_key": "tang-yin",
+  "primary_display_name_zh": "唐寅",
+  "primary_display_name_en": "Tang Yin",
+  "alternate_names_zh": ["唐伯虎", "唐子畏", "六如居士", "桃花庵主", "逃禅仙吏"],
+  "alternate_names_en": ["Tang Bohu", "Tang Ziwei", "Liuru Jushi", "Taohua Anzhu"],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming Dynasty",
+  "birth": {
+    "year_display": "1470",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "成化六年二月初四",
+    "conversion_note": "1470年3月6日"
+  },
+  "death": {
+    "year_display": "1524",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "嘉靖二年十二月二日",
+    "conversion_note": "1524年1月7日"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "adequate_with_caveats",
+  "short_description_zh": "明代苏州文人、画家、诗人、书法家。1498年应天府乡试解元，后因科场案被黜。以绘画、诗词名世，后世常将其与沈周、文徵明、仇英并列于“明四家”，与祝允明、文徵明、徐祯卿合称“吴中四才子”。",
+  "short_description_en": "Ming dynasty Suzhou literatus, painter, poet, and calligrapher. Placed first in the 1498 Yingtian provincial examination (jieyuan), but was implicated in an examination scandal and dismissed from official career. Known for painting and poetry; later art-historical tradition groups him among the 'Four Masters of the Ming' and the 'Four Talents of Wu'."
+}

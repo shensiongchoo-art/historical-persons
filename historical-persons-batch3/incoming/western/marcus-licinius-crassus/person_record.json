@@ -1,0 +1,42 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_MARCUS_LICINIUS_CRASSUS",
+  "canonical_key": "marcus-licinius-crassus",
+  "primary_display_name_en": "Marcus Licinius Crassus",
+  "primary_display_name_zh": "马库斯·李锡尼·克拉苏",
+  "alternate_names_en": [
+    "Crassus",
+    "Marcus Crassus"
+  ],
+  "alternate_names_zh": [
+    "克拉苏",
+    "马库斯·克拉苏"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "la",
+  "period": "Late Roman Republic",
+  "birth": {
+    "year_display": "c. 115 BCE",
+    "era": "BCE",
+    "year_number": 115,
+    "astronomical_year": -114,
+    "precision": "year",
+    "original_date_text": "c. 115 BCE, Rome",
+    "conversion_note": "Birth year uncertain. Plutarch (Crass. 1.1) says he was older than Pompey (born 106 BCE) but younger than his father's generation. 115 BCE is the conventional estimate based on Plutarch's reference to his age during the Sullan-Marian conflict and his political career timeline."
+  },
+  "death": {
+    "year_display": "53 BCE",
+    "era": "BCE",
+    "year_number": 53,
+    "astronomical_year": -52,
+    "precision": "month",
+    "original_date_text": "c. May–June 53 BCE, near Carrhae, Mesopotamia (modern Harran, Turkey)",
+    "conversion_note": "Killed during or shortly after the Battle of Carrhae against the Parthian Empire. Plutarch (Crass. 31) and Cassius Dio (40.27) describe his capture and execution. The exact date is uncertain; the battle occurred in early summer 53 BCE."
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_en": "Roman general and politician of the late Republic. Consul (70, 55 BCE), suppressor of the Spartacus revolt (71 BCE). Richest man in Rome through real estate, mining, and slave trading. Formed the First Triumvirate with Caesar and Pompey (60 BCE). Governor of Syria (54–53 BCE). Killed at the Battle of Carrhae against the Parthians.",
+  "short_description_zh": "罗马共和国晚期将军、政治家。曾任执政官（前70年、前55年），镇压斯巴达克斯起义（前71年）。通过地产、矿业与奴隶贸易成为罗马最富有者。与凯撒、庞培组成前三头同盟（前60年），出任叙利亚总督（前54–53年）。在卡莱战役中被帕提亚帝国击败后身亡（前53年）。",
+  "review_note": ""
+}
