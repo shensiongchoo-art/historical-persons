@@ -1,0 +1,20 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_MARCUS_BRUTUS",
+  "display_name_en": "Marcus Junius Brutus",
+  "display_name_original": "Marcus Junius Brutus",
+  "era": "Late Roman Republic",
+  "birth_year_approx": -85,
+  "death_year_approx": -42,
+  "birth_location": "Rome, Roman Republic",
+  "death_location": "Philippi, Macedonia (near modern Krinides, Greece)",
+  "primary_roles": [
+    "Roman senator",
+    "Praetor",
+    "Leader of Caesar's assassination",
+    "Stoic philosopher"
+  ],
+  "short_description_en": "Roman senator and leader of the conspiracy that assassinated Julius Caesar in 44 BCE. Stoic philosopher and follower of Cato. Defeated and killed at Philippi.",
+  "review_status": "ai_collected_unreviewed",
+  "schema_version": "v2.5",
+  "collection_date": "2026-05-17"
+}

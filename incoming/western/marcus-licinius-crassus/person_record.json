@@ -1,0 +1,20 @@
+{
+  "person_id": "P_WEST_LATE_REPUBLIC_MARCUS_CRASSUS",
+  "display_name_en": "Marcus Licinius Crassus",
+  "display_name_original": "Marcus Licinius Crassus",
+  "era": "Late Roman Republic",
+  "birth_year_approx": -115,
+  "death_year_approx": -53,
+  "birth_location": "Rome, Roman Republic",
+  "death_location": "Near Carrhae, Parthian Empire (modern Harran, Turkey)",
+  "primary_roles": [
+    "Roman general",
+    "Roman consul",
+    "Triumvir",
+    "Governor of Syria"
+  ],
+  "short_description_en": "Wealthiest Roman of the late Republic, member of the First Triumvirate with Caesar and Pompey, victor over Spartacus, killed at Carrhae invading Parthia.",
+  "review_status": "ai_collected_unreviewed",
+  "schema_version": "v2.5",
+  "collection_date": "2026-05-17"
+}
