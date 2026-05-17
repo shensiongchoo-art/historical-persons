@@ -17,10 +17,10 @@ tags:
   - "late-roman-republic"
 related_people:
   - "[[gnaeus-pompeius-magnus]]"
-  - "[[marcus-tullius-cicero]]"
+  - "[[cicero]]"
   - "[[cleopatra-vii]]"
   - "[[augustus-octavian]]"
-  - "[[marcus-antonius-mark-antony]]"
+  - "[[mark-antony]]"
 ---
 
 > ⚠️ **AI-COLLECTED / STAGING ONLY** — Not yet reviewed by a subject-matter expert. Do not cite as master-approved.
@@ -141,10 +141,10 @@ Roman general, statesman, and dictator. Conqueror of Gaul (58-50 BCE), victor in
 | Person | Relationship Type | Status | Sources | Notes |
 |--------|-------------------|--------|---------|-------|
 | Gnaeus Pompeius Magnus ([[gnaeus-pompeius-magnus]]) | opponent | ai_collected_unreviewed | [[julius-caesar__SRC_JC_002]], [[julius-caesar__SRC_JC_003]] | Caesar and Pompey were initially political allies in the 'First Triumvirate', then became opponents in civil war. Caesar defeated Pompey at Pharsalus. |
-| Marcus Tullius Cicero ([[marcus-tullius-cicero]]) | same_political_context | ai_collected_unreviewed | [[julius-caesar__SRC_JC_006]] | Complex relationship between political opposition and mutual respect. |
+| Marcus Tullius Cicero ([[cicero]]) | same_political_context | ai_collected_unreviewed | [[julius-caesar__SRC_JC_006]] | Complex relationship between political opposition and mutual respect. |
 | Cleopatra VII ([[cleopatra-vii]]) | documented_association | ai_collected_unreviewed | [[julius-caesar__SRC_JC_003]], [[julius-caesar__SRC_JC_004]] | Caesar formed a relationship with Cleopatra VII in Egypt in 48 BCE; they had a son, Caesarion. |
 | Augustus (Octavian) ([[augustus-octavian]]) | family | ai_collected_unreviewed | [[julius-caesar__SRC_JC_004]], [[julius-caesar__SRC_JC_007]] | Caesar adopted Octavian as his son and heir. |
-| Marcus Antonius (Mark Antony) ([[marcus-antonius-mark-antony]]) | documented_association | ai_collected_unreviewed | [[julius-caesar__SRC_JC_003]] | Mark Antony was Caesar's important lieutenant and political ally. |
+| Marcus Antonius (Mark Antony) ([[mark-antony]]) | documented_association | ai_collected_unreviewed | [[julius-caesar__SRC_JC_003]] | Mark Antony was Caesar's important lieutenant and political ally. |
 | Marcus Junius Brutus | opponent | ai_collected_unreviewed | [[julius-caesar__SRC_JC_003]], [[julius-caesar__SRC_JC_004]] | Brutus was one of the leading conspirators in Caesar's assassination. |
 
 > Wikilinks to related persons are forward references — may be unresolved until the rest of the batch is imported.
