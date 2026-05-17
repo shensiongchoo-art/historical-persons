@@ -149,6 +149,64 @@ Roman general, statesman, and dictator. Conqueror of Gaul (58–50 BCE), victor 
 
 ---
 
+## Relationships
+
+| Person | Relationship Type | Status | Sources | Notes |
+|--------|-------------------|--------|---------|-------|
+| Gnaeus Pompeius Magnus ([[gnaeus-pompeius-magnus]]) | opponent | ai_collected_unreviewed | [[SRC_JC_002]], [[SRC_JC_003]] | Initially political allies in the informal "First Triumvirate"; later civil-war opponents. Defeated by Caesar at Pharsalus. |
+| Marcus Tullius Cicero ([[cicero]]) | same_political_context | ai_collected_unreviewed | [[SRC_JC_006]] | Complex — political opposition combined with mutual respect (visible in Cicero's correspondence). |
+| Cleopatra VII ([[cleopatra-vii]]) | documented_association | ai_collected_unreviewed | [[SRC_JC_003]], [[SRC_JC_004]] | Relationship formed in Egypt 48 BCE; had a son, Caesarion (paternity disputed). |
+| Augustus / Octavian ([[augustus-octavian]]) | family | ai_collected_unreviewed | [[SRC_JC_004]], [[SRC_JC_007]] | Caesar adopted Octavian (his great-nephew) as son and heir in his will. |
+| Marcus Antonius / Mark Antony ([[marcus-antonius]]) | documented_association | ai_collected_unreviewed | [[SRC_JC_003]] | Important lieutenant and political ally in the Gallic Wars and civil war. |
+| Marcus Junius Brutus | opponent | ai_collected_unreviewed | [[SRC_JC_003]], [[SRC_JC_004]] | One of the leading conspirators in Caesar's assassination on the Ides of March 44 BCE. |
+
+> Wikilinks marked `[[cicero]]`, `[[cleopatra-vii]]` etc. are forward references — those person notes are not yet imported. Obsidian will show them as unresolved until the rest of the 22-person batch is approved. Marcus Junius Brutus has no `related_person_id` in the source data and so is listed in plain text.
+
+---
+
+## Works
+
+| Work | Type | Status | Sources | Notes |
+|------|------|--------|---------|-------|
+| Commentarii de Bello Gallico (高卢战记) | historical_commentary | ai_collected_unreviewed | [[SRC_JC_001]] | ca. 51 BCE. Seven books by Caesar plus an eighth by Aulus Hirtius. Primary but self-promotional. |
+| Commentarii de Bello Civili (内战记) | historical_commentary | ai_collected_unreviewed | [[SRC_JC_002]] | ca. 44 BCE. Caesar's account of the civil war against Pompey, covering events to 48 BCE. |
+
+> ⚠️ Caesar's works are `artwork_by_person` (his own writings), not portraits of himself. Per MVP rules v2.5 visual-media discipline, these are evidence of authorship — not of his physical appearance.
+
+---
+
+## Sources
+
+### A / A_candidate (primary or near-primary)
+
+| Source ID | Title | Type | Reliability | Verification Status |
+|-----------|-------|------|-------------|---------------------|
+| [[SRC_JC_001]] | Commentarii de Bello Gallico | primary_text | A_candidate | ai_verified_unreviewed |
+| [[SRC_JC_002]] | Commentarii de Bello Civili | primary_text | A_candidate | ai_verified_unreviewed |
+| [[SRC_JC_006]] | Cicero, Letters and Speeches | ancient_text | A_candidate | ai_verified_unreviewed |
+
+### B_high / B (modern scholarship & ancient biography)
+
+| Source ID | Title | Type | Reliability | Verification Status |
+|-----------|-------|------|-------------|---------------------|
+| [[SRC_JC_003]] | Plutarch, Life of Caesar | ancient_biography | B_high | ai_verified_unreviewed |
+| [[SRC_JC_004]] | Suetonius, Divus Julius | ancient_biography | B_high | ai_verified_unreviewed |
+| [[SRC_JC_005]] | Cassius Dio, Roman History | ancient_history | B_high | ai_verified_unreviewed |
+| [[SRC_JC_007]] | Caesar: Life of a Colossus (Goldsworthy) | academic_monograph | B_high | ai_verified_unreviewed |
+
+### C / D / clue_only (encyclopedia & general reference)
+
+| Source ID | Title | Type | Reliability | Verification Status |
+|-----------|-------|------|-------------|---------------------|
+| [[SRC_JC_008]] | Wikipedia: Julius Caesar | encyclopedia | D | clue_only |
+| [[SRC_JC_009]] | Britannica: Julius Caesar | encyclopedia | D | clue_only |
+
+### ⚠️ Flagged: needs_verification
+
+*None — all Julius Caesar sources are currently `ai_verified_unreviewed` or `clue_only`. Page/passage references for ancient sources still require human verification, but the sources themselves are not flagged with the `needs_verification` status.*
+
+---
+
 ## Source Package
 
 Path: `incoming/western/julius-caesar/`

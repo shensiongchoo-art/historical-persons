@@ -142,6 +142,72 @@ Ming dynasty Suzhou literatus, painter, poet, and calligrapher. Placed first in 
 
 ---
 
+## Relationships
+
+| Person | Relationship Type | Status | Sources | Notes |
+|--------|-------------------|--------|---------|-------|
+| Shen Zhou / 沈周 ([[shen-zhou]]) | probable_association | ai_collected_unreviewed | [[SRC_TY_007]] | Both Suzhou literati; later grouped as 明四家. Direct interaction needs verification. |
+| Wen Zhengming / 文徵明 ([[wen-zhengming]]) | probable_association | ai_collected_unreviewed | [[SRC_TY_007]] | Both Suzhou literati, later 吴中四才子. Evidence of literary exchanges. |
+| Zhu Yunming / 祝允明 ([[zhu-yunming]]) | probable_association | ai_collected_unreviewed | [[SRC_TY_001]], [[SRC_TY_007]] | Associated from early age; both in 吴中四才子. |
+| Xu Zhenqing / 徐祯卿 ([[xu-zhenqing]]) | later_grouping_only | ai_collected_unreviewed | [[SRC_TY_007]] | Both 吴中四才子 — later literary-historical classification. Personal relationship needs verification. |
+| Zhou Chen / 周臣 | probable_teacher_student | ai_collected_unreviewed | [[SRC_TY_007]] | Tang Yin studied painting under Zhou Chen. |
+| Qiu Ying / 仇英 ([[qiu-ying]]) | later_grouping_only | ai_collected_unreviewed | [[SRC_TY_007]] | Both 明四家 — later classification. Specific relationship needs verification. |
+
+> Wikilinks marked `[[shen-zhou]]` etc. are forward references — those person notes are not yet imported. Obsidian will show them as unresolved until the rest of the 22-person batch is approved.
+
+---
+
+## Works
+
+| Work | Type | Status | Sources | Notes |
+|------|------|--------|---------|-------|
+| 六如居士全集 (Complete Works of Liuru Jushi) | collected_writings | ai_collected_unreviewed | [[SRC_TY_002]] | Tang Yin's collected poetry, prose, and letters. |
+| 王蜀宫妓图 / 四美图 (Court Ladies of the Former Shu) | painting | ai_collected_unreviewed | [[SRC_TY_004]] | Figure painting; held in Palace Museum, Beijing. Object ID needs verification. |
+| 落霞孤鹜图 (Falling Clouds and Lonely Duck) | painting | ai_collected_unreviewed | [[SRC_TY_004]] | Landscape inspired by poetry. Date needs verification. |
+| 秋风纨扇图 (Autumn Wind and Silk Fan) | painting | ai_collected_unreviewed | [[SRC_TY_004]] | Figure painting allegorizing career disappointment. |
+| 春山伴侣图 (Spring Mountain Companions) | painting | ai_collected_unreviewed | [[SRC_TY_004]] | Landscape with figures. |
+
+> ⚠️ Artworks by Tang Yin are `artwork_by_person`, not portrait likenesses of him. Per MVP rules v2.5 visual-media discipline, these are creative output and not evidence of his appearance.
+
+---
+
+## Sources
+
+### A / A_candidate (primary or near-primary)
+
+| Source ID | Title | Type | Reliability | Verification Status |
+|-----------|-------|------|-------------|---------------------|
+| [[SRC_TY_001]] | 明史·文苑传 (History of Ming) | official_history | A_candidate | ai_verified_unreviewed |
+| [[SRC_TY_002]] | 六如居士集 (Collected Works) | collected_works | A_candidate | ai_verified_unreviewed |
+| [[SRC_TY_004]] | 故宫博物院藏品 (Palace Museum) | museum_record | A_candidate | needs_verification |
+| [[SRC_TY_008]] | 姑苏志 (Gusu Gazetteer) | local_gazetteer | A_candidate | ai_verified_unreviewed |
+
+### B_high / B (modern scholarship)
+
+| Source ID | Title | Type | Reliability | Verification Status |
+|-----------|-------|------|-------------|---------------------|
+| [[SRC_TY_003]] | 唐寅研究 (Deng Xiaodong) | academic_monograph | B_high | ai_verified_unreviewed |
+| [[SRC_TY_007]] | Tang Yin: Life and Art | academic_paper | B_high | needs_verification |
+| [[SRC_TY_009]] | 近十年来唐寅研究述评 | academic_paper | B_high | ai_verified_unreviewed |
+
+### C / D / clue_only (encyclopedia & general reference)
+
+| Source ID | Title | Type | Reliability | Verification Status |
+|-----------|-------|------|-------------|---------------------|
+| [[SRC_TY_005]] | 百度百科·唐寅 | encyclopedia | D | clue_only |
+| [[SRC_TY_006]] | Wikipedia: Tang Yin | encyclopedia | D | clue_only |
+
+*Note: D-level sources are kept for research traceability only — never as sole support for a claim. See each note's `🚫 D-LEVEL — CLUE ONLY` banner.*
+
+### ⚠️ Flagged: needs_verification
+
+| Source ID | Title | Reliability | Status |
+|-----------|-------|-------------|--------|
+| [[SRC_TY_004]] | 故宫博物院藏品 | A_candidate | needs_verification |
+| [[SRC_TY_007]] | Tang Yin: Life and Art | B_high | needs_verification |
+
+---
+
 ## Source Package
 
 Path: `incoming/chinese/tang-yin/`
