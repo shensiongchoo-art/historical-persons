@@ -225,7 +225,7 @@ Validation: PASSED (dry-run survey)
 
 ## Open Questions
 
-## 待查问题
+### 待查问题
 
 | # | 问题 | 当前说法 | 所需证据 |
 |---|------|---------|---------|
@@ -243,7 +243,7 @@ Validation: PASSED (dry-run survey)
 | 12 | 贩夫牧竖索画轶事出处 | 广为流传 | 需核实最早记载来源 |
 | 13 | 明四家概念提始时间 | 后世美术史概念 | 需核实最早使用该并称的文献 |
 
-## 建议后续行动
+### 建议后续行动
 
 - 检索《明史·隐逸传》卷298沈周条原文
 - 查阅陈正宏《沈周年谱》核实年谱细节
@@ -251,7 +251,7 @@ Validation: PASSED (dry-run survey)
 - 检索台北故宫博物院、北京故宫博物院沈周藏品目录
 - 核对 Wikipedia 条目 1472/1427 出生年矛盾的原因
 
-## Hardening Sprint Notes (v1, 2026-05-12)
+### Hardening Sprint Notes (v1, 2026-05-12)
 
 - relationships.jsonl: non-v2.5 types mapped to allowed set: grandfather/uncle/father → family; teacher (confirmed) → documented_teacher_student; teacher (probable) → probable_teacher_student; friend (confirmed) → documented_association; friend (probable) → probable_association.
 - claims.jsonl C014, C018: removed overstrong "friend/close friends" wording per v2.5 rules; replaced with "documented association" language.

@@ -188,7 +188,7 @@ Validation: PASSED (dry-run survey)
 
 ## Open Questions
 
-## High Priority
+### High Priority
 
 1. **Exact birth year**: ca. 89 BCE is an academic estimate. No ancient source provides a birth date. Could prosopographical analysis of the cursus honorum narrow this down?
 
@@ -196,7 +196,7 @@ Validation: PASSED (dry-run survey)
 
 3. **Reassessment of the "weakness" trope**: How much of the ancient portrayal is Augustan propaganda versus genuine political marginalization? A thorough historiographical review is needed.
 
-## Medium Priority
+### Medium Priority
 
 4. **African governorship (40–36 BCE)**: Lepidus's governorship of Africa is poorly documented. What is known of his administration, military activities, and relationship with local elites?
 
@@ -204,7 +204,7 @@ Validation: PASSED (dry-run survey)
 
 6. **Family and descendants**: Lepidus's son (Marcus Aemilius Lepidus the Younger) was executed for conspiracy in 30 BCE. What more is known about his immediate family?
 
-## Low Priority
+### Low Priority
 
 7. **Circaeum retirement**: The location and circumstances of Lepidus's 23-year retirement are virtually undocumented. Any archaeological or epigraphic evidence?
 
@@ -212,7 +212,7 @@ Validation: PASSED (dry-run survey)
 
 9. **Inscriptional evidence**: Are there any surviving inscriptions mentioning Lepidus beyond standard triumviral documents?
 
-## Recommended Review Actions
+### Recommended Review Actions
 
 1. Consult Gruen (1974) for detailed prosopography
 2. Review Syme (1939) chapters on the triumviral period

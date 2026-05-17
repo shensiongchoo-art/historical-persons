@@ -14,7 +14,7 @@ data_source_folder: "incoming/western/cleopatra-vii/"
 tags:
   - "b1"
   - "western"
-  - "ptolemaic-period-/-late-roman-republic"
+  - "ptolemaic-period-late-roman-republic"
 related_people:
   - "[[gaius-julius-caesar]]"
   - "[[mark-antony]]"

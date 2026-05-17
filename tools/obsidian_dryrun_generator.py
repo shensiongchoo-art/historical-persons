@@ -179,8 +179,14 @@ def gen_person_note(slug, culture, pdir, source_map, manifest):
     if culture == 'chinese': tags.append('chinese')
     else: tags.append('western')
     if period:
-        ptag = period.lower().replace(' ', '-').replace('(','').replace(')','').split(',')[0]
-        tags.append(ptag[:40])
+        # Sanitize period -> slug: lowercase, replace any non-alphanum with '-',
+        # collapse repeated '-', trim leading/trailing '-'. Fixes slash artifacts
+        # like "late-republic-/-early-empire" -> "late-republic-early-empire".
+        ptag = period.lower().split(',')[0]
+        ptag = re.sub(r'[^a-z0-9]+', '-', ptag)
+        ptag = re.sub(r'-+', '-', ptag).strip('-')[:40]
+        if ptag:
+            tags.append(ptag)
     fm_lines.append('tags:')
     for t in tags:
         fm_lines.append(f'  - {yaml_str(t)}')
@@ -520,7 +526,26 @@ def gen_person_note(slug, culture, pdir, source_map, manifest):
             oq_lines = oq.split('\n')
             if oq_lines and oq_lines[0].startswith('# '):
                 oq_lines = oq_lines[1:]
-            body.append('\n'.join(oq_lines).strip() or '*(no open questions recorded)*')
+            # Demote embedded ATX headings so they nest under the parent
+            # "## Open Questions" without breaking heading hierarchy.
+            # Rule: H1/H2 -> H3, deeper headings shift down by 1 level.
+            # Plain text and code-fence-internal '#' are left alone.
+            demoted = []
+            in_fence = False
+            for ln in oq_lines:
+                stripped = ln.lstrip()
+                if stripped.startswith('```'):
+                    in_fence = not in_fence
+                    demoted.append(ln); continue
+                if in_fence:
+                    demoted.append(ln); continue
+                m = re.match(r'^(#+)(\s+.*)$', ln)
+                if not m:
+                    demoted.append(ln); continue
+                level = len(m.group(1))
+                new_level = 3 if level <= 2 else level + 1
+                demoted.append('#' * new_level + m.group(2))
+            body.append('\n'.join(demoted).strip() or '*(no open questions recorded)*')
         else:
             body.append('*(open_questions.md is empty)*')
     else:

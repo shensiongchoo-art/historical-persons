@@ -196,7 +196,7 @@ Validation: PASSED (dry-run survey)
 
 ## Open Questions
 
-## High Priority
+### High Priority
 
 1. **明史卷次核实**: SRC001 引《明史》卷286 文苑传。需确认何景明传记在中华书局点校本中的准确卷次。
 
@@ -204,7 +204,7 @@ Validation: PASSED (dry-run survey)
 
 3. **大复集版本**: SRC003 仅引《四库全书》本。需核实现存刻本系统（嘉靖刻本、万历刻本等）。
 
-## Medium Priority
+### Medium Priority
 
 4. **李何之争书信年份**: 正德年间书信辩论的具体年份（约1510年代初期）需从二人文集中准确推断。
 
@@ -212,7 +212,7 @@ Validation: PASSED (dry-run survey)
 
 6. **李何之争的学术文献**: 明代文学批评史中有大量关于李何之争的专门研究。应补充一到两个权威学术专著。
 
-## Low Priority
+### Low Priority
 
 7. **出生及逝世月日**: 目前仅有年份，月日信息待补。
 
@@ -222,7 +222,7 @@ Validation: PASSED (dry-run survey)
 
 10. **肖像画存世情况**: 何景明画像流传极少。信阳地方是否存有其画像或雕像？
 
-## Recommended Review Actions
+### Recommended Review Actions
 
 1. 核对《明史》文苑传何景明部分全文
 2. 查阅 Dictionary of Ming Biography 何景明条目

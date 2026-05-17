@@ -190,7 +190,7 @@ Validation: PASSED (dry-run survey)
 
 ## Open Questions
 
-## High Priority
+### High Priority
 
 1. **明史卷次核实**: SRC001 引《明史·王鏊传》卷181，需对照中华书局点校本确认准确卷次。
 
@@ -198,7 +198,7 @@ Validation: PASSED (dry-run survey)
 
 3. **震泽集版本**: 具体卷数、现存版本、馆藏信息均未核实。需确定现通行版本。
 
-## Medium Priority
+### Medium Priority
 
 4. **入阁与致仕确切年份**: 正德元年入阁、致仕年份在不同来源中有出入，需核对《明实录》或年谱。
 
@@ -206,7 +206,7 @@ Validation: PASSED (dry-run survey)
 
 6. **王鏊在茶陵派网络中的位置**: 与李东阳的关系具体到何种程度——仅是朝中同僚，还是存在文学上的从属或互动？需从二人文集及《列朝诗集》等文献中核实。
 
-## Low Priority
+### Low Priority
 
 7. **经学著作流传**: 《春秋词命》等经学著作的现存版本和学术评价。
 
@@ -214,7 +214,7 @@ Validation: PASSED (dry-run survey)
 
 9. **肖像画馆藏**: 是否有官方收藏的明代肖像画？苏州博物馆或故宫博物院是否藏有王鏊画像？
 
-## Recommended Review Actions
+### Recommended Review Actions
 
 1. 核对《明史》卷181 王鏊传全文
 2. 查阅 Dictionary of Ming Biography 王鏊条目

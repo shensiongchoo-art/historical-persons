@@ -14,7 +14,7 @@ data_source_folder: "incoming/western/marcus-agrippa/"
 tags:
   - "b1"
   - "western"
-  - "late-roman-republic-/-early-principate"
+  - "late-roman-republic-early-principate"
 related_people:
   - "[[augustus-octavian]]"
   - "[[mark-antony]]"

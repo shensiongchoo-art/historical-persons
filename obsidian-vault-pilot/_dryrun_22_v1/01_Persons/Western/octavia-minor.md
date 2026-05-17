@@ -14,7 +14,7 @@ data_source_folder: "incoming/western/octavia-minor/"
 tags:
   - "b2"
   - "western"
-  - "late-roman-republic-/-early-empire"
+  - "late-roman-republic-early-empire"
 ---
 
 > ⚠️ **AI-COLLECTED / STAGING ONLY** — Not yet reviewed by a subject-matter expert. Do not cite as master-approved.
@@ -188,7 +188,7 @@ Validation: PASSED (dry-run survey)
 
 ## Open Questions
 
-## High Priority
+### High Priority
 
 1. **Exact birth year**: ca. 69 BCE is an estimate. Can prosopographical analysis of the Octavii family provide a more precise date? No ancient source records her birth.
 
@@ -196,7 +196,7 @@ Validation: PASSED (dry-run survey)
 
 3. **Porticus Octaviae vs Porticus Octavia**: These are two separate Augustan monuments. Exact archaeological identification and dating of each need clarification.
 
-## Medium Priority
+### Medium Priority
 
 4. **Octavia's independent agency**: All surviving sources depict Octavia as acted upon by male figures (Octavian, Antony). Is there any evidence — epigraphic, numismatic, or literary — that hints at her independent political agency or preferences?
 
@@ -204,7 +204,7 @@ Validation: PASSED (dry-run survey)
 
 6. **The Tarentum mediation (37 BCE)**: Ancient sources suggest Octavia brokered the renewal of the triumvirate between Antony and Octavian at Tarentum. How much of this mediating role is historical versus later idealization?
 
-## Low Priority
+### Low Priority
 
 7. **Octavia in Augustan poetry**: References to Octavia or her grief appear in Virgil (Aeneid VI.860–886, Marcellus passage), possibly Propertius and Horace. A systematic survey of poetic references is needed.
 
@@ -212,7 +212,7 @@ Validation: PASSED (dry-run survey)
 
 9. **Numismatic survey**: A comprehensive catalogue of coins bearing Octavia's image with museum accession numbers.
 
-## Recommended Review Actions
+### Recommended Review Actions
 
 1. Consult Syme (1939) for the political-dynastic analysis
 2. Compile epigraphic evidence for dedications to Octavia
