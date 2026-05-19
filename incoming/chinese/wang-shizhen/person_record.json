@@ -1,0 +1,44 @@
+{
+  "person_id": "P_CHN_MING_WANG_SHIZHEN",
+  "canonical_key": "wang-shizhen",
+  "primary_display_name_zh": "王世贞",
+  "primary_display_name_en": "Wang Shizhen",
+  "alternate_names_zh": [
+    "元美",
+    "凤洲",
+    "弇州山人"
+  ],
+  "alternate_names_en": [
+    "Yuanmei",
+    "Fengzhou",
+    "Yanzhou Shanren"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1526",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "嘉靖五年（1526年）",
+    "conversion_note": "standard date per Dictionary of Ming Biography",
+    "year_number": 1526,
+    "astronomical_year": 1526
+  },
+  "death": {
+    "year_display": "1590",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "万历十八年（1590年）",
+    "conversion_note": "standard date; died December 1590",
+    "year_number": 1590,
+    "astronomical_year": 1590
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代文学家、史学家、官员。后七子领袖之一，嘉靖后期至万历前期文坛盟主。著有《弇州山人四部稿》《弇山堂别集》等。",
+  "short_description_en": "Ming dynasty writer, historian, and official. Co-leader of the Latter Seven Masters and dominant literary arbiter of late 16th-century China. Author of Yanzhou Shanren Sibu Gao and Yanshantang Bieji.",
+  "review_note": "Batch 4 ai_collected_unreviewed. Generated from Wikipedia, Dictionary of Ming Biography, and Cambridge History of Chinese Literature."
+}

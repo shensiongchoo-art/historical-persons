@@ -1,0 +1,42 @@
+{
+  "person_id": "P_CHN_MING_LI_PANLONG",
+  "canonical_key": "li-panlong",
+  "primary_display_name_zh": "李攀龙",
+  "primary_display_name_en": "Li Panlong",
+  "alternate_names_zh": [
+    "于鳞",
+    "沧溟"
+  ],
+  "alternate_names_en": [
+    "Yulin",
+    "Cangming"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1514",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "正德九年（1514年）",
+    "conversion_note": "standard date",
+    "year_number": 1514,
+    "astronomical_year": 1514
+  },
+  "death": {
+    "year_display": "1570",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "隆庆四年（1570年）",
+    "conversion_note": "standard date",
+    "year_number": 1570,
+    "astronomical_year": 1570
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代文学家、后七子领袖之一。与王世贞同为复古文学运动旗手，编有《古今诗删》《唐诗选》。",
+  "short_description_en": "Ming dynasty writer and co-leader of the Latter Seven Masters. Advocated archaizing literary theory alongside Wang Shizhen. Compiled Gujin Shishan and Tangshi Xuan, influential poetry anthologies.",
+  "review_note": "Batch 4 ai_collected_unreviewed. Generated from Wikipedia and Dictionary of Ming Biography."
+}

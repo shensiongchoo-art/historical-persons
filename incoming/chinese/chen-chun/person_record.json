@@ -1,0 +1,44 @@
+{
+  "person_id": "P_CHN_MING_CHEN_CHUN",
+  "canonical_key": "chen-chun",
+  "primary_display_name_zh": "陈淳",
+  "primary_display_name_en": "Chen Chun",
+  "alternate_names_zh": [
+    "道复",
+    "白阳山人",
+    "陈淳（亦作陈顺）"
+  ],
+  "alternate_names_en": [
+    "Daofu",
+    "Baiyang Shanren",
+    "Chen Shun (variant romanization)"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Chinese",
+  "primary_language": "zh-Hans",
+  "period": "Ming dynasty",
+  "birth": {
+    "year_display": "1483",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "成化十九年（1483年）",
+    "conversion_note": "standard date",
+    "year_number": 1483,
+    "astronomical_year": 1483
+  },
+  "death": {
+    "year_display": "1544",
+    "era": "CE",
+    "precision": "year",
+    "original_date_text": "嘉靖二十三年（1544年）",
+    "conversion_note": "standard date",
+    "year_number": 1544,
+    "astronomical_year": 1544
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "明代画家、书法家、诗人。师从文徵明，后自创水墨写意风格，与徐渭并称'白阳青藤'。吴门画派重要成员。",
+  "short_description_en": "Ming dynasty painter, calligrapher, and poet. Studied under Wen Zhengming before developing his own expressive ink-wash style. Paired with Xu Wei as 'Baiyang and Qingteng,' two great masters of freehand flower painting.",
+  "review_note": "Batch 4 ai_collected_unreviewed. Generated from Wikipedia, museum catalogs, and auction records."
+}
