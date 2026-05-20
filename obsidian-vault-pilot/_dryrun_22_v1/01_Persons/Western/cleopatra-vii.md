@@ -16,7 +16,7 @@ tags:
   - "western"
   - "ptolemaic-period-late-roman-republic"
 related_people:
-  - "[[gaius-julius-caesar]]"
+  - "[[julius-caesar]]"
   - "[[mark-antony]]"
   - "[[augustus-octavian]]"
 ---
@@ -135,7 +135,7 @@ Last active ruler of Ptolemaic Egypt (r. 51-30 BCE). Formed alliances with Juliu
 
 | Person | Relationship Type | Status | Sources | Notes |
 |--------|-------------------|--------|---------|-------|
-| Gaius Julius Caesar ([[gaius-julius-caesar]]) | documented_association | ai_collected_unreviewed | [[cleopatra-vii__SRC_CL_001]] | Cleopatra allied with Caesar and formed an intimate relationship; they had a son, Caesarion. |
+| Gaius Julius Caesar ([[julius-caesar]]) | documented_association | ai_collected_unreviewed | [[cleopatra-vii__SRC_CL_001]] | Cleopatra allied with Caesar and formed an intimate relationship; they had a son, Caesarion. |
 | Mark Antony ([[mark-antony]]) | documented_association | ai_collected_unreviewed | [[cleopatra-vii__SRC_CL_001]], [[cleopatra-vii__SRC_CL_002]] | Cleopatra allied with Antony and formed an intimate relationship; they had three children. Jointly fought Octavian at Actium in 31 BCE. |
 | Augustus (Octavian) ([[augustus-octavian]]) | opponent | ai_collected_unreviewed | [[cleopatra-vii__SRC_CL_001]], [[cleopatra-vii__SRC_CL_002]], [[cleopatra-vii__SRC_CL_003]] | Cleopatra and Octavian were opponents. After Octavian defeated Cleopatra and Antony at Actium, Cleopatra committed suicide. |
 | Ptolemy XIII | family | ai_collected_unreviewed | [[cleopatra-vii__SRC_CL_001]], [[cleopatra-vii__SRC_CL_005]] | Cleopatra initially co-ruled with her brother Ptolemy XIII, later in conflict. Ptolemy XIII died during the civil war. |

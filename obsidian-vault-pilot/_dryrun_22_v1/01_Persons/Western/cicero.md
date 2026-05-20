@@ -16,7 +16,7 @@ tags:
   - "western"
   - "late-roman-republic"
 related_people:
-  - "[[gaius-julius-caesar]]"
+  - "[[julius-caesar]]"
   - "[[gnaeus-pompeius-magnus]]"
   - "[[mark-antony]]"
 ---
@@ -136,7 +136,7 @@ Roman orator, statesman, lawyer, philosopher, and writer. Consul in 63 BCE when 
 
 | Person | Relationship Type | Status | Sources | Notes |
 |--------|-------------------|--------|---------|-------|
-| Gaius Julius Caesar ([[gaius-julius-caesar]]) | same_political_context | ai_collected_unreviewed | [[cicero__SRC_CC_002]], [[cicero__SRC_CC_004]] | Complex relationship: political opponents, yet Cicero acknowledged some of Caesar's qualities and Caesar showed Cicero clemency. |
+| Gaius Julius Caesar ([[julius-caesar]]) | same_political_context | ai_collected_unreviewed | [[cicero__SRC_CC_002]], [[cicero__SRC_CC_004]] | Complex relationship: political opponents, yet Cicero acknowledged some of Caesar's qualities and Caesar showed Cicero clemency. |
 | Gnaeus Pompeius Magnus ([[gnaeus-pompeius-magnus]]) | documented_association | ai_collected_unreviewed | [[cicero__SRC_CC_001]], [[cicero__SRC_CC_004]] | Cicero supported Pompey against Caesar; praised Pompey in Pro Lege Manilia. |
 | Mark Antony ([[mark-antony]]) | opponent | ai_collected_unreviewed | [[cicero__SRC_CC_001]], [[cicero__SRC_CC_004]] | Cicero attacked Antony in the Philippics; Antony was instrumental in proscribing him in 43 BCE. |
 | Titus Pomponius Atticus | documented_association | ai_collected_unreviewed | [[cicero__SRC_CC_002]] | Cicero and Atticus were lifelong close friends, documented by extensive surviving correspondence. |
