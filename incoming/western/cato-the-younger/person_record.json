@@ -1,0 +1,42 @@
+{
+  "person_id": "P_ROM_REP_CATO_MINOR",
+  "canonical_key": "cato-the-younger",
+  "primary_display_name_zh": "小加图",
+  "primary_display_name_en": "Cato the Younger",
+  "alternate_names_zh": [
+    "马尔库斯·波尔基乌斯·加图·乌提森西斯"
+  ],
+  "alternate_names_en": [
+    "Marcus Porcius Cato Uticensis",
+    "Cato Minor"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "en",
+  "period": "Late Roman Republic",
+  "birth": {
+    "year_display": "95 BC",
+    "era": "BCE",
+    "precision": "year",
+    "original_date_text": "95 BC",
+    "conversion_note": "standard date; born during consulship of L. Licinius Crassus and Q. Mucius Scaevola",
+    "year_number": -95,
+    "astronomical_year": -94
+  },
+  "death": {
+    "year_display": "46 BC",
+    "era": "BCE",
+    "precision": "month",
+    "original_date_text": "April 46 BC (Utica, Africa)",
+    "conversion_note": "standard date; suicide after Pompeian defeat at Thapsus",
+    "year_number": -46,
+    "astronomical_year": -45,
+    "date_display": "April 46 BC"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "罗马共和国末期元老、斯多葛派哲学家、贵族派领袖。以廉洁正直著称，终身反对凯撒，乌提卡战败后自杀殉国。",
+  "short_description_en": "Late Roman Republic senator, Stoic philosopher, and Optimate leader. Renowned for incorruptibility and principled opposition to Julius Caesar. Committed suicide at Utica after the Pompeian defeat.",
+  "review_note": "Batch 4 ai_collected_unreviewed. Generated from Plutarch's Life of Cato Minor, Appian, Cassius Dio, Cicero, and Drogula 2019."
+}

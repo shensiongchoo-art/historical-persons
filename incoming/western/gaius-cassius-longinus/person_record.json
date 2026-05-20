@@ -1,0 +1,41 @@
+{
+  "person_id": "P_ROM_REP_CASSIUS_LONGINUS",
+  "canonical_key": "gaius-cassius-longinus",
+  "primary_display_name_zh": "盖乌斯·卡西乌斯·朗基努斯",
+  "primary_display_name_en": "Gaius Cassius Longinus",
+  "alternate_names_zh": [
+    "卡西乌斯"
+  ],
+  "alternate_names_en": [
+    "Cassius"
+  ],
+  "historical_status": "confirmed_historical_person",
+  "primary_culture": "Roman",
+  "primary_language": "en",
+  "period": "Late Roman Republic",
+  "birth": {
+    "year_display": "c. 86 BC",
+    "era": "BCE",
+    "precision": "decade",
+    "original_date_text": "c. 86 BC",
+    "conversion_note": "exact year uncertain",
+    "year_number": -86,
+    "astronomical_year": -85
+  },
+  "death": {
+    "year_display": "42 BC",
+    "era": "BCE",
+    "precision": "day",
+    "original_date_text": "3 October 42 BC (Philippi)",
+    "conversion_note": "suicide after First Battle of Philippi",
+    "year_number": -42,
+    "astronomical_year": -41,
+    "date_display": "3 October 42 BC"
+  },
+  "review_status": "ai_collected_unreviewed",
+  "inclusion_category": "core_historical_candidate",
+  "source_sufficiency": "to_be_reviewed",
+  "short_description_zh": "罗马共和国末期元老、将领。凯撒刺杀行动的主要策划者，伊壁鸠鲁派哲学家。腓立比战役后自杀。",
+  "short_description_en": "Late Roman Republic senator and general. Leading instigator of Julius Caesar's assassination. Epicurean philosopher. Committed suicide after the Battle of Philippi.",
+  "review_note": "Batch 4 ai_collected_unreviewed. Generated from Plutarch, Appian, Cassius Dio, Cicero's letters, and modern scholarship (Momigliano 1941, Sedley 1997)."
+}
