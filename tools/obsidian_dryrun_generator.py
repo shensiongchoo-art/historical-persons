@@ -1,14 +1,20 @@
 #!/usr/bin/env python3
 """
-22-Person Obsidian Dry-Run Generator (v1)
+29-Person Obsidian Dry-Run Generator (v3)
 
 Reads incoming/<culture>/<slug>/*.{json,jsonl,md} and emits Markdown person notes
-and source notes into obsidian-vault-pilot/_dryrun_22_v1/.
+and source notes into obsidian-vault-pilot/_dryrun_29_v1/.
 
 - Person note filename:  {slug}.md  under 01_Persons/{Chinese|Western}/
 - Source note filename:  {slug}__{source_id}.md  under 03_Sources/{Chinese|Western}/
-  (Namespacing applies UNIFORMLY across all 22 persons per the approved plan,
+  (Namespacing applies UNIFORMLY across all persons per the approved plan,
    including packages whose source_ids are already prefixed.)
+
+v3 changes (vs. v2):
+- Person registry built from every incoming/<culture>/<slug>/person_record.json
+  at startup. Replaces the v2 slug-guess heuristic for related_people /
+  Relationships table wikilinks. Logs unresolved person references rather than
+  emitting unresolved-by-guess wikilinks.
 
 Does NOT touch incoming/. Does NOT mirror to the live vault. Does NOT generate
 standalone event/work/relationship notes.
@@ -18,15 +24,23 @@ from collections import Counter, defaultdict
 
 REPO = '/home/clawchoo/claude-projects/historical-persons'
 INCOMING = os.path.join(REPO, 'incoming')
-OUT = os.path.join(REPO, 'obsidian-vault-pilot', '_dryrun_22_v1')
+OUT = os.path.join(REPO, 'obsidian-vault-pilot', '_dryrun_29_v1')
 
 BATCH = {
+    # MVP (7)
     'shen-zhou':'MVP','wang-yangming':'MVP','qiu-ying':'MVP','wu-kuan':'MVP',
     'gnaeus-pompeius-magnus':'MVP','augustus-octavian':'MVP','mark-antony':'MVP',
+    # B1 (8)
     'tang-yin':'B1','wen-zhengming':'B1','zhu-yunming':'B1','xu-zhenqing':'B1',
     'julius-caesar':'B1','cicero':'B1','cleopatra-vii':'B1','marcus-agrippa':'B1',
+    # B2 (7)
     'li-dongyang':'B2','wang-ao':'B2','li-mengyang':'B2','he-jingming':'B2',
     'lepidus':'B2','octavia-minor':'B2','sextus-pompey':'B2',
+    # B3 (2)
+    'marcus-licinius-crassus':'B3','marcus-junius-brutus':'B3',
+    # B4 (5)
+    'wang-shizhen':'B4','chen-chun':'B4','li-panlong':'B4',
+    'cato-the-younger':'B4','gaius-cassius-longinus':'B4',
 }
 
 D_BANNER = (
@@ -91,6 +105,95 @@ def yaml_str(s):
     # Always quote — safe across special chars
     return '"' + s.replace('\\','\\\\').replace('"','\\"') + '"'
 
+# ---------- person registry (v3 — canonical-slug resolution) ----------
+def build_person_registry():
+    """Build a lookup map: variant -> folder_slug for every incoming person.
+
+    The FOLDER SLUG (e.g. 'shen-zhou') is the canonical link target — that's
+    what the generated person-note filename uses. Person records may declare a
+    slightly different canonical_key (e.g. 'shen_zhou' with underscore) which
+    we also accept as a lookup key.
+
+    Indexed lookup keys per person:
+      - folder slug                                 (e.g. shen-zhou)
+      - person_record.canonical_key                 (e.g. shen_zhou)
+      - hyphen/underscore variants of canonical_key (shen-zhou, shen_zhou)
+      - person_id                                   (e.g. P_CHN_MING_SHEN_ZHOU)
+      - primary/alternate display names             (e.g. "Shen Zhou", "沈周")
+      - lowercased display names
+      - slug-normalised display names               (e.g. shen-zhou)
+
+    Ambiguous keys (different persons claiming the same lookup) are dropped
+    so we never auto-link to the wrong person.
+    """
+    registry = {}
+    ambiguous = set()
+    for culture in ['chinese', 'western']:
+        cdir = os.path.join(INCOMING, culture)
+        if not os.path.isdir(cdir): continue
+        for slug in sorted(os.listdir(cdir)):
+            pdir = os.path.join(cdir, slug)
+            if not os.path.isdir(pdir): continue
+            pr_path = os.path.join(pdir, 'person_record.json')
+            if not os.path.exists(pr_path): continue
+            try:
+                with open(pr_path) as f: pr = json.load(f)
+            except Exception:
+                continue
+            target = slug
+            keys = {slug}
+            ck = pr.get('canonical_key', '')
+            if ck:
+                keys.add(ck)
+                keys.add(ck.replace('_', '-'))
+                keys.add(ck.replace('-', '_'))
+            pid = pr.get('person_id', '')
+            if pid: keys.add(pid)
+            for f in ('primary_display_name_en','primary_display_name_zh',
+                      'display_name_en','display_name_zh','display_name',
+                      'name_en','name_zh'):
+                v = pr.get(f)
+                if isinstance(v, str) and v:
+                    keys.add(v); keys.add(v.lower())
+                    s = re.sub(r'[^a-z0-9]+','-', v.lower())
+                    s = re.sub(r'-+','-', s).strip('-')
+                    if s: keys.add(s)
+            for f in ('alternate_names_en','alternate_names_zh'):
+                v = pr.get(f, [])
+                if isinstance(v, list):
+                    for n in v:
+                        if isinstance(n, str) and n:
+                            keys.add(n); keys.add(n.lower())
+                            s = re.sub(r'[^a-z0-9]+','-', n.lower())
+                            s = re.sub(r'-+','-', s).strip('-')
+                            if s: keys.add(s)
+            for k in keys:
+                if k in registry and registry[k] != target:
+                    ambiguous.add(k)
+                else:
+                    registry[k] = target
+    for k in ambiguous:
+        registry.pop(k, None)
+    return registry
+
+
+def resolve_person(related_id, related_name, registry):
+    """Return (folder_slug, True) on confident match, else (None, False).
+
+    Order: related_person_id first (most specific), then exact name,
+    lower-cased name, then slug-normalised name. Never guesses.
+    """
+    if related_id and related_id in registry:
+        return registry[related_id], True
+    if related_name:
+        if related_name in registry: return registry[related_name], True
+        lname = related_name.lower()
+        if lname in registry: return registry[lname], True
+        s = re.sub(r'[^a-z0-9]+','-', lname)
+        s = re.sub(r'-+','-', s).strip('-')
+        if s and s in registry: return registry[s], True
+    return None, False
+
 # ---------- claim/source bucketing ----------
 RECEPTION_TYPES = {'reception_label','later_grouping_only','reception','reception_only','later_grouping'}
 LEGEND_TYPES = {'legend','legendary','fiction','fictional','folklore','myth'}
@@ -121,13 +224,14 @@ def source_bucket(s):
     return 'unknown'
 
 # ---------- person note generator ----------
-def gen_person_note(slug, culture, pdir, source_map, manifest):
+def gen_person_note(slug, culture, pdir, source_map, manifest, registry):
     """
     slug:        folder slug (filename = slug.md)
     culture:     'chinese' or 'western'
     pdir:        path to incoming/<culture>/<slug>/
     source_map:  dict {source_id -> namespaced_filename} for THIS person
     manifest:    accumulator dict
+    registry:    person-registry dict (variant -> folder_slug) — v3
     """
     with open(os.path.join(pdir, 'person_record.json')) as f:
         pr = json.load(f)
@@ -190,19 +294,21 @@ def gen_person_note(slug, culture, pdir, source_map, manifest):
     fm_lines.append('tags:')
     for t in tags:
         fm_lines.append(f'  - {yaml_str(t)}')
-    # related_people from relationships
+    # related_people from relationships — v3: registry-based, no slug guessing
     rel_keys = []
     for r in rels:
-        rid = r.get('related_person_id','')
-        if rid and rid.startswith('P_'):
-            # Map person_id back to canonical_key by best-effort
-            # We don't have a full registry — emit forward-style wikilink using a slug guess.
-            # Use related_person_name to slug, with a comment fallback.
-            name = r.get('related_person_name','')
-            # Try simple slug: lower + spaces->hyphens, strip non-alphanum
-            slug_guess = re.sub(r'[^a-z0-9-]', '', name.lower().replace(' ','-'))
-            if slug_guess:
-                rel_keys.append(slug_guess)
+        rid = r.get('related_person_id', '')
+        name = r.get('related_person_name', '')
+        target, resolved = resolve_person(rid, name, registry)
+        if resolved and target != slug:
+            rel_keys.append(target)
+        elif rid or name:
+            manifest['unresolved_person_refs'].append({
+                'from_person': slug,
+                'related_person_id': rid,
+                'related_person_name': name,
+                'context': 'frontmatter:related_people',
+            })
     if rel_keys:
         fm_lines.append('related_people:')
         seen = set()
@@ -399,11 +505,19 @@ def gen_person_note(slug, culture, pdir, source_map, manifest):
         for r in rels:
             name = r.get('related_person_name','')
             rid = r.get('related_person_id','')
-            if rid and rid.startswith('P_'):
-                slug_guess = re.sub(r'[^a-z0-9-]','', name.lower().replace(' ','-'))
-                person_cell = f'{safe_md_cell(name)} ([[{slug_guess}]])' if slug_guess else safe_md_cell(name)
+            # v3: registry-based resolution. No guessing.
+            target, resolved = resolve_person(rid, name, registry)
+            if resolved and target != slug:
+                person_cell = f'{safe_md_cell(name)} ([[{target}]])' if name else f'[[{target}]]'
             else:
-                person_cell = safe_md_cell(name)
+                person_cell = safe_md_cell(name) if name else '(unknown)'
+                if rid or name:
+                    manifest['unresolved_person_refs'].append({
+                        'from_person': slug,
+                        'related_person_id': rid,
+                        'related_person_name': name,
+                        'context': 'relationships:table',
+                    })
             rtype = r.get('relationship_type','')
             stat = first_of(r, 'status','confidence','review_status', default='—')
             sids = r.get('source_ids') or []
@@ -671,8 +785,14 @@ def main():
         'source_notes': [],
         'd_level_source_notes': [],
         'orphan_links': [],
+        'unresolved_person_refs': [],
         'skipped': [],
     }
+
+    # v3: Build the canonical-slug registry up front from every person_record.json.
+    registry = build_person_registry()
+    print(f"Person registry built: {len(registry)} lookup keys across "
+          f"{len(set(registry.values()))} canonical slugs.")
 
     persons = []
     for culture in ['chinese','western']:
@@ -681,7 +801,9 @@ def main():
             if not os.path.isdir(pdir): continue
             persons.append((culture, slug, pdir))
 
-    assert len(persons) == 22, f"Expected 22, got {len(persons)}"
+    expected = 29
+    if len(persons) != expected:
+        print(f"Note: found {len(persons)} persons (expected {expected}). Continuing.")
 
     # First pass: generate all source notes, build source_map per person
     person_source_maps = {}  # slug -> {source_id -> namespaced_filename}
@@ -703,9 +825,9 @@ def main():
                 manifest['d_level_source_notes'].append(out_path)
         person_source_maps[slug] = source_map
 
-    # Second pass: generate person notes (with full source maps available)
+    # Second pass: generate person notes (with full source maps + registry available)
     for culture, slug, pdir in persons:
-        gen_person_note(slug, culture, pdir, person_source_maps[slug], manifest)
+        gen_person_note(slug, culture, pdir, person_source_maps[slug], manifest, registry)
 
     # Validate: every source wikilink in every person note resolves to a generated source note
     src_files_set = set()
@@ -727,11 +849,12 @@ def main():
 
     # Print summary
     print(f"\n=== Generated ===")
-    print(f"Person notes:    {len(manifest['person_notes'])}")
-    print(f"Source notes:    {len(manifest['source_notes'])}")
-    print(f"D-level w/ banner: {len(manifest['d_level_source_notes'])}")
-    print(f"Skipped:         {len(manifest['skipped'])}")
-    print(f"Orphan links:    {len(manifest['orphan_links'])}")
+    print(f"Person notes:               {len(manifest['person_notes'])}")
+    print(f"Source notes:               {len(manifest['source_notes'])}")
+    print(f"D-level w/ banner:          {len(manifest['d_level_source_notes'])}")
+    print(f"Skipped:                    {len(manifest['skipped'])}")
+    print(f"Orphan source links:        {len(manifest['orphan_links'])}")
+    print(f"Unresolved person refs:     {len(manifest['unresolved_person_refs'])}")
 
     # Dump manifest as JSON
     with open(os.path.join(OUT, '90_Staging_Review', '_generation_manifest.json'), 'w') as f:
@@ -739,12 +862,14 @@ def main():
             'person_count': len(manifest['person_notes']),
             'source_count': len(manifest['source_notes']),
             'd_level_count': len(manifest['d_level_source_notes']),
+            'unresolved_person_ref_count': len(manifest['unresolved_person_refs']),
             'skipped': manifest['skipped'],
             'orphans': manifest['orphan_links'],
+            'unresolved_person_refs': manifest['unresolved_person_refs'],
             'person_notes': [os.path.relpath(p, REPO) for p in manifest['person_notes']],
             'source_notes': [os.path.relpath(p, REPO) for p in manifest['source_notes']],
             'd_level_notes': [os.path.relpath(p, REPO) for p in manifest['d_level_source_notes']],
-        }, f, indent=2)
+        }, f, indent=2, ensure_ascii=False)
 
     if manifest['skipped']:
         print("\nSkipped:")
