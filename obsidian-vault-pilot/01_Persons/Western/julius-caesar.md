@@ -21,7 +21,7 @@ tags:
   - batch-1
 related_people:
   - "[[gnaeus-pompeius-magnus]]"
-  - "[[marcus-antonius]]"
+  - "[[mark-antony]]"
   - "[[cleopatra-vii]]"
   - "[[augustus-octavian]]"
   - "[[cicero]]"
@@ -157,7 +157,7 @@ Roman general, statesman, and dictator. Conqueror of Gaul (58–50 BCE), victor 
 | Marcus Tullius Cicero ([[cicero]]) | same_political_context | ai_collected_unreviewed | [[SRC_JC_006]] | Complex — political opposition combined with mutual respect (visible in Cicero's correspondence). |
 | Cleopatra VII ([[cleopatra-vii]]) | documented_association | ai_collected_unreviewed | [[SRC_JC_003]], [[SRC_JC_004]] | Relationship formed in Egypt 48 BCE; had a son, Caesarion (paternity disputed). |
 | Augustus / Octavian ([[augustus-octavian]]) | family | ai_collected_unreviewed | [[SRC_JC_004]], [[SRC_JC_007]] | Caesar adopted Octavian (his great-nephew) as son and heir in his will. |
-| Marcus Antonius / Mark Antony ([[marcus-antonius]]) | documented_association | ai_collected_unreviewed | [[SRC_JC_003]] | Important lieutenant and political ally in the Gallic Wars and civil war. |
+| Marcus Antonius / Mark Antony ([[mark-antony]]) | documented_association | ai_collected_unreviewed | [[SRC_JC_003]] | Important lieutenant and political ally in the Gallic Wars and civil war. |
 | Marcus Junius Brutus | opponent | ai_collected_unreviewed | [[SRC_JC_003]], [[SRC_JC_004]] | One of the leading conspirators in Caesar's assassination on the Ides of March 44 BCE. |
 
 > Wikilinks marked `[[cicero]]`, `[[cleopatra-vii]]` etc. are forward references — those person notes are not yet imported. Obsidian will show them as unresolved until the rest of the 22-person batch is approved. Marcus Junius Brutus has no `related_person_id` in the source data and so is listed in plain text.
