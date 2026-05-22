@@ -18,9 +18,9 @@ This is the first formally-closed Obsidian baseline of the Historical Persons Da
 | Last linked merge to `main` | PR #43 — `cleanup: pilot Julius Caesar — [[marcus-antonius]] → [[mark-antony]] (2 links)` |
 | Pilot file MD5 (Tang Yin) | `688cc12e0baacf706e51d1b6deb582d5` |
 | Pilot file MD5 (Julius Caesar, post-cleanup) | `84e7da1c2d395d59b90105a220286cdb` |
-| Open PRs at baseline close | **#42** — `mirror: 29-person Obsidian dry-run v1 + generator v3` (still OPEN; underlies this baseline's live-vault state; see §11) |
+| Open PRs at baseline close | **none** — #42 merged as `0abe7e5` and #43 merged as `328497b` before this baseline doc landed on `main` |
 | `incoming/` state | clean — `git status incoming/` empty |
-| Generator referenced | `tools/obsidian_dryrun_generator.py` (v3 — registry-based person-link resolution; on PR #42 branch) |
+| Generator referenced | `tools/obsidian_dryrun_generator.py` (v3 — registry-based person-link resolution; now on `main`) |
 
 ### Merge sequence that produced this baseline (chronological)
 
@@ -34,10 +34,10 @@ This is the first formally-closed Obsidian baseline of the Historical Persons Da
 | #39 | `7265486` | Collect Batch 4 network expansion packages |
 | #40 | `567b337` | triage: open PR review order for #35-#39 |
 | #41 | (squash) | report: post-Batch 4 merge status v1 |
-| **#42** | **NOT YET MERGED** | mirror: 29-person Obsidian dry-run v1 + generator v3 |
+| **#42** | `0abe7e5` | mirror: 29-person Obsidian dry-run v1 + generator v3 |
 | #43 | `328497b` | cleanup: pilot Julius Caesar wikilink fix |
 
-The state in the live Obsidian vault reflects the v3 generator's output plus the cleanup from #43, even though the v3 generator code itself is technically still on the PR #42 branch and not yet on `main`. See §11.
+The state in the live Obsidian vault reflects the v3 generator's output plus the cleanup from #43. The v3 generator code, the dry-run sandbox, and the dry-run + mirror reports are all now on `main` after the PR #42 merge.
 
 ---
 
@@ -131,8 +131,6 @@ Codifying the directional flow established during the 22-person and 29-person mi
 | 3 | Em-dash `—` Status column where source JSONL lacks the field | Cosmetic | `_22_person_dryrun_spotcheck_report_v1.md` §6 |
 | 4 | Relationships row formatting for related-persons whose JSONL lacks `related_person_name` (mainly Augustus + Mark Antony) | Cosmetic | same as above |
 | 5 | No standalone event / work / relationship notes generated yet (folder scaffold present but empty) | Deferred | `_post_import_cleanup_plan_v1.md` §4 |
-| 6 | PR #42 (29-person mirror + v3 generator) still **OPEN** at baseline close — see §11 | Paper-trail | — |
-
 No blocking items.
 
 ---
@@ -163,10 +161,11 @@ No blocking items.
 
 Concrete sub-steps for the next session:
 
-1. **Triage Open PR #42** — decide whether to merge it as-is (capturing the v3 generator into `main`) or close it (keeping the generator code unmerged but using the live-vault outcome). Either is defensible, but the choice should be deliberate before the baseline is operationally closed.
-2. **Draft `reviewed/staging/_phase_decision_roadmap_v1.md`** — short comparison of Options A–E with predicted effort, dependencies, and risk for each. Score them against the current project state.
-3. **Pick one option** based on the roadmap. Document the decision.
-4. **Pause new-person collection** (Option B) until a strategic option is chosen — collecting more persons without choosing a direction increases the cleanup backlog and the vault/staging gap.
+1. **Draft `reviewed/staging/_phase_decision_roadmap_v1.md`** — short comparison of Options A–E with predicted effort, dependencies, and risk for each. Score them against the current project state.
+2. **Pick one option** based on the roadmap. Document the decision.
+3. **Pause new-person collection** (Option B) until a strategic option is chosen — collecting more persons without choosing a direction increases the cleanup backlog and the vault/staging gap.
+
+(The previously-flagged "triage PR #42" step is no longer needed — PR #42 was merged before this baseline document landed on `main`.)
 
 If a default must be picked without a roadmap session:
 
@@ -174,15 +173,11 @@ If a default must be picked without a roadmap session:
 
 ---
 
-## 11. Note on PR #42 (still open at baseline close)
+## 11. Paper trail completeness
 
-PR #42 contains the v3 generator (`tools/obsidian_dryrun_generator.py`), the dry-run sandbox (`obsidian-vault-pilot/_dryrun_29_v1/`), the dry-run generation report, and the live mirror report. The live vault state being closed in this baseline IS the v3 generator's output (subsequently cleaned up by PR #43 which has merged).
+The v3 generator (`tools/obsidian_dryrun_generator.py`), the dry-run sandbox (`obsidian-vault-pilot/_dryrun_29_v1/`), the dry-run generation report, and the live mirror report all landed on `main` via PR #42's squash merge (`0abe7e5`). The pilot link cleanup landed via PR #43's squash merge (`328497b`).
 
-The PR shows `mergeStateStatus: UNKNOWN` on the GitHub API at baseline close — likely a snapshot lag after the #43 merge. The PR itself is non-conflicting (its file set does not overlap any other recent PR's file set; verified earlier in this project's history).
-
-**Recommendation:** merge PR #42 in the next session so the v3 generator and the dry-run sandbox land in `main` as a paper trail for how the baseline came about. Until then, the v3 generator code lives on the PR branch only. The live vault state does not depend on this merge — it's already there — but the canonical commit history will be incomplete.
-
-This baseline closure does **not** merge PR #42 because the user's task spec scoped Step 1 strictly to PR #43.
+The commit history on `main` therefore fully describes how the live Obsidian vault reached its current accepted state — no off-`main` artifacts remain.
 
 ---
 
